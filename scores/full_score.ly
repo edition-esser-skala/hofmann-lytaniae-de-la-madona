@@ -20,19 +20,19 @@
 			title = "K Y R I E"
 		}
 		\paper { indent = 3\cm }
-		% \tocSection "1" "Kyrie"
+		\tocSection "1" "Kyrie"
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
 						\set StaffGroup.instrumentName = \markup { \center-column { "Clarino I, II" "in B" } }
-						\transpose c b,
+						% \transpose c b,
 						\partcombine \KyrieClarinoI \KyrieClarinoII
 					>>
 				>>
 				\new Staff {
 					\set Staff.instrumentName = \markup { \center-column { "Timpani" "in B–F" } }
-					\transpose c b,
+					% \transpose c b,
 					\KyrieTimpani
 				}
 				\new StaffGroup <<
@@ -88,7 +88,7 @@
 				\new FiguredBass { \KyrieBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

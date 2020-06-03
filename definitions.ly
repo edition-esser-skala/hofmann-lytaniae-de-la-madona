@@ -33,8 +33,8 @@
        (stretchability . 0))
 
 	top-system-spacing =
-    #'((basic-distance . 20)
-       (minimum-distance . 20)
+    #'((basic-distance . 15)
+       (minimum-distance . 15)
        (padding . -100)
        (stretchability . 0))
 
@@ -45,8 +45,8 @@
        (stretchability . 0))
 
 	markup-system-spacing =
-    #'((basic-distance . 15)
-       (minimum-distance . 15)
+    #'((basic-distance . 10)
+       (minimum-distance . 10)
        (padding . -100)
        (stretchability . 0))
 
@@ -407,12 +407,43 @@ sbOff = {
         (markup #:fontsize -2 fig-markup)
         empty-markup)))
 
+#(define (half-bfb which-side) (lambda (grob)
+  (let* (
+    (dir-h (if (negative? which-side) -1 +1))
+    (layout (ly:grob-layout grob))
+    (line-thickness (ly:output-def-lookup layout 'line-thickness))
+    (thickness (ly:grob-property grob 'thickness 1))
+    (th (* line-thickness thickness))
+    (hth (/ th 2))
+    (tip-lo-h (car (ly:grob-property grob 'edge-height)))
+    (tip-hi-h (cdr (ly:grob-property grob 'edge-height)))
+    (bfb (ly:enclosing-bracket::print grob))
+    (bfb-x (ly:stencil-extent bfb X))
+    (bfb-y (ly:stencil-extent bfb Y))
+    (stem-v (interval-widen bfb-y (- hth)))
+    (stems-h (interval-widen bfb-x (- hth)))
+    (single-bracket (lambda (grob)
+      (grob-interpret-markup grob (markup
+        #:translate (cons ((if (negative? dir-h) car cdr) stems-h) (cdr stem-v))
+        #:scale (cons (- dir-h) -1)
+        #:combine #:draw-line (cons tip-hi-h 0) #:combine
+        #:draw-line (cons 0 (interval-length stem-v))
+        #:translate (cons 0 (interval-length stem-v))
+        #:draw-line (cons tip-lo-h 0))))))
+    (single-bracket grob))))
+
+
+bfbOpen =
+\once \override BassFigureBracket.stencil = #(half-bfb LEFT)
+bfbClose =
+\once \override BassFigureBracket.stencil = #(half-bfb RIGHT)
+
 
 \layout {
 	\context {
 		\Score
 		\compressFullBarRests
-		% \override BarNumber.break-visibility = #'#(#f #t #t)
+		\override BarNumber.break-visibility = #'#(#f #t #t)
 	}
 	\context {
 		\StaffGroup
