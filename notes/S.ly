@@ -105,6 +105,93 @@ KyrieSopranoLyrics = \lyricmode {
 	no -- bis. %44 finis
 }
 
+SanctaMariaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \major \time 2/4 \autoBeamOff \tempoSanctaMaria
+		R2*69 %69
+		\mvTr b'4\pE^\solo a8. es'16 %70
+		es8. d16 d4
+		b~ b16[ es] es([ g)]
+		f8([ es16 d)] c([ b)] d([ b)]
+		f4( es)
+		d r %75
+		b'8. b16 \appoggiatura es d8 c16([ b)]
+		f'8. f,16 f4
+		f'~ f16[ es] d([ c)]
+		c4 h16[ c h c]
+		d[ es] f4 es16([ d)] %80
+		\tuplet 3/2 8 { es([ d c)] } c8 r4
+		g8. g16 c8 es
+		\appoggiatura es16 d8([ c16 h)] c4
+		g8. g'16 f16([ es)] d([ c)]
+		\appoggiatura es d8([ c16 h)] c4 %85
+		f es
+		d2~
+		d8[ es16 f] es8 d
+		es8.([ f32 g)] as16([ f)] es([ d)]
+		c4( d)\trill %90
+		c r
+		R2*42 %133
+		\mvTr b8.\fE^\tutti b16 a8 es'
+		es8. d16 d4 %135
+		b8 b a es'
+		es8. d16 d4
+		f8 as,! as as16 as
+		as8. g16 g4
+		b b8. b16 %140
+		b8 as r as~
+		as g r g~
+		g f r f~
+		f[ es16 d] es8 f
+		es4( d) %145
+		es f
+		g8 g f4
+		es r\fermata \bar "||" %148 finis
+	}
+}
+
+SanctaMariaSopranoLyrics = \lyricmode {
+	Ma -- ter a -- %70
+	ma -- bi -- lis,
+	o -- ra,
+	o -- ra pro
+	no --
+	bis, %75
+	Ma -- ter ad -- mi --
+	ra -- bi -- lis,
+	o -- ra,
+	o -- _
+	_ ra pro %80
+	no -- bis,
+	Ma -- ter Cre -- a --
+	to -- ris,
+	Ma -- ter Sal -- va --
+	to -- ris, %85
+	o -- ra,
+	o --
+	_ ra,
+	o -- ra pro
+	no -- %90
+	bis.
+
+	Spe -- cu -- lum iu -- %134
+	sti -- ti -- ae, %135
+	Se -- des sa -- pi --
+	en -- ti -- ae,
+	Cau -- sa no -- strae lae --
+	ti -- ti -- ae,
+	o -- ra pro %140
+	no -- bis, o --
+	ra, o --
+	ra, o --
+	ra pro
+	no -- %145
+	bis, o --
+	ra pro no --
+	bis. %148 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

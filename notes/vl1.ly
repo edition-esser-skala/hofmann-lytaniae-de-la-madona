@@ -55,6 +55,159 @@ KyrieViolinoI = {
  	}
 }
 
+SanctaMariaViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \major \time 2/4 \tempoSanctaMaria
+		es8.\fE \tuplet 3/2 16 { g32( f es) } d16. as'32 as16. as32
+		as8\trill g r4
+		es8. g64( f es d) c16. c'32 c16. c32
+		c8\trill b es32( d c b as g f es)
+		f( as c b as g f es) d( es f es d c b as) %5
+		as8\trill g es''32( d c b as g f es)
+		c'16. d,32 es16. g32 b,8 as\trill
+		g4 r8 b''16( des,)
+		c8.( d32 e) f16( as) \once \slurDashed c,(-. c-.)
+		b8.( c32 d) es16( g) \once \slurDashed b,(-. b-.) %10
+		as8.( b32 c) d16( f) \once \slurDashed as,(-. as-.)
+		g32( f es d es f g as) b( c b as g f es d)
+		es( d c h c d es f) g( as g f es d c b)
+		c16. c'32 b16. es,32 f4\trill
+		es16. b32 <g es'>16. b32 <g es'>4 %15
+		es'8.\p \tuplet 3/2 16 { g32( f es) } d16. as'32 as16. as32
+		as8 g es'32(\f d c b as g f es)
+		c'8\pE c c c
+		b8.( c32 d) es16( b c g)
+		b4 as\trill %20
+		g8 es16.\f b32 g'16. es32 b'16. g32
+		es8\p b' b b
+		b b b b
+		b4(\fz a8) g-!
+		f4 r8 es' %25
+		es\trill d b16.\f f32 d16. f32
+		b,4 r
+		r8 des'\p des des
+		c8.( b32 as) g4
+		as8.( b32 c) b16( g) f( e) %30
+		f8.( g32 as) g4
+		as8 as as as
+		as as as as
+		as( b16 c) c( b) b( as)
+		as8.(\trill g32 as) g4 %35
+		c~ c16( d32 es d16 c)
+		c( b as g) f( es g b)
+		b4 as\trill
+		g8 es16.\f b32 g'16. es32 b'16. g32
+		es8\p b' b b %40
+		b b b b
+		es4 d16( c b as)
+		as8. g16 g4
+		c b16( as g f)
+		f( es d es) es4 %45
+		d16( es f g) as8 g
+		g4\trill f
+		g8 g g g
+		f b b b
+		a a a a %50
+		c c c c
+		d f b4~
+		b16\cresc d( c b a g f es)
+		d8 b' r a
+		b,8.\f \tuplet 3/2 16 { d32( c b) } a16. es'32 es16. es32 %55
+		es8\trill d r4
+		b8. d64( c b a) g16. g'32 g16. g32
+		g8\trill f b32( a g f es d c b)
+		c( es g f es d c b) a( b c b a g f es)
+		es8\trill d b''32( a g f es d c b) %60
+		g'16. a,32 b16. d32 \appoggiatura f,8 es4
+		d8 b'32( d c b) f'4~
+		f16 d es8 r es~
+		es16 c d8 r d~
+		d16 b c8 r c %65
+		b32( a b c d c d es) f( g f es d c b a)
+		b( a g fis g a b c) d( es d c b a g f)
+		g16. g'32 f16. b,32 c4\trill
+		b16. f32 d16. f32 <d b'>4
+		b'8.\p \tuplet 3/2 16 { d32( c b) } a16. es'32 es16. es32 %70
+		es8.(\trill d32 es) d4
+		b~ b16( es) es( g)
+		f8 es16( d) c( b) d( b)
+		f4 es\trill
+		d8 b'16.-!\f d32-! f,16.-! b32-! d,16.-! f32-! %75
+		b,8\p d' d d
+		c c c c
+		f4~ f16 es( d c)
+		c4( h16) c( h c)
+		d( es) f4 es16( d) %80
+		\tuplet 3/2 8 { es d c } c8 r4
+		g c8 es
+		\appoggiatura es16 d8( c16 h) c4
+		g8. g'16 f( es d c)
+		\appoggiatura es d8( c16 h) c4 %85
+		f16 f f f es es es es
+		d\cresc d d d d d d d
+		d8\p es16 f es8 d
+		es8.( f32 g) as16( f es d)
+		c8 c' r h %90
+		r c,32(\f es d c) g'4~
+		g16 es f8 r f~
+		f16 d es8 r es~
+		es16 c d8 r d
+		c32( h c d es d es f) g( as g f g f es d) %95
+		es( d c h c b as g) as( g f es f es d c)
+		h16. g32 c16. d32 d4\trill
+		c r
+		R2
+		as'8\p as as as %100
+		g4 r8 c,
+		c c h h
+		c c'16.\f es32 g,16. c32 es,16. g32
+		c,4 r
+		r8 es'\p es es %105
+		d d g, g
+		g g fis fis
+		g g'4\f g8
+		as!4 r
+		r8 g16(\pE es) es( c) c( g) %110
+		a8 f' f r
+		R2*2
+		r8 b,16.\f d32 f,16. b32 d,16. f32
+		b,16(\p d f d) d'( b f d) %115
+		c(\f es f es) d(\p b f' d)
+		b( d f d) d'( b f d)
+		c(\f es f es) d(\p f b d)
+		d,4 r
+		R2*2 %121
+		a'8 r c r
+		es r r4
+		b8 r d r
+		f r r4 %125
+		c8 r es r
+		d r r4
+		r8 f,4( fis8)
+		g r r4
+		r8 b' r a %130
+		b,32(\f a b c d c d es) f( g f es d c b a)
+		b( a g fis g a b c) d( es d c b a g f)
+		g16. g'32 f16. b,32 c4\trill
+		b8. \tuplet 3/2 16 { d32( c b) } a16. es'32 es16. es32
+		es8.(\trill d32 es) d4 %135
+		b8. \tuplet 3/2 16 { d32( c b) } a16. es'32 es16. es32
+		es8.(\trill d32 es) d4
+		f8. d64( es f g) as!16. as,32 as16. as32
+		as8.(\trill g32 as) g4
+		b b8 b'16( des,) %140
+		c8.( d32 e) f16( as) c,(-. c-.)
+		b8.( c32 d) es16( g) b,(-. b-.)
+		as8.( b32 c) d16( f) as,(-. as-.)
+		g4~ g16 es'-! f,( as)
+		g32( b as g f es d es) b8 d' %145
+		es32( f g f es d c b) as( g f es d c b as)
+		g8 es''16. g,32 f8 d'
+		es,4 r\fermata \bar "||" %148 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

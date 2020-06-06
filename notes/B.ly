@@ -94,6 +94,47 @@ KyrieBassoLyrics = \lyricmode {
 	no -- bis. %44 finis
 }
 
+SanctaMariaBassoNotes = {
+	\relative c {
+		\clef bass
+		\twofourtime \key es \major \time 2/4 \autoBeamOff \tempoSanctaMaria
+		R2*133 %133
+		\mvTr b'8.\fE^\tutti b16 c8 f,
+		b8. b,16 b4 %135
+		b'8 b c f,
+		b8. b,16 b4
+		d8 d d d16 d
+		es8. es16 es4
+		r r8 g( %140
+		e) f r f(
+		d) es r es(
+		c) d r b
+		es4. as,8
+		b2 %145
+		es4 d
+		es8 es b4
+		es r\fermata \bar "||" %148 finis
+	}
+}
+
+SanctaMariaBassoLyrics = \lyricmode {
+	Spe -- cu -- lum iu -- %134
+	sti -- ti -- ae, %135
+	Se -- des sa -- pi --
+	en -- ti -- ae,
+	Cau -- sa no -- strae lae --
+	ti -- ti -- ae,
+	o -- %140
+	ra, o --
+	ra, o --
+	ra, o --
+	ra pro
+	no -- %145
+	bis, o --
+	ra pro no --
+	bis. %148 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

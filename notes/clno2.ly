@@ -40,3 +40,22 @@ KyrieClarinoII = {
 		c' g e r\fermata \bar "||" %44 finis
 	}
 }
+
+SanctaMariaClarinoII = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key c \major \time 2/4 \tempoSanctaMaria
+		R2*133 %133
+		c'4\f g8 d'
+		d8. c16 c4 %135
+		c g8 d'
+		d8. c16 c4
+		c,4 c8 c16 c
+		c4 r
+		R2*5 %144
+		c4 c %145
+		c c8 c16 c
+		c8 c c4
+		c r\fermata \bar "||" %148 finis
+	}
+}

@@ -105,6 +105,129 @@ KyrieAltoLyrics = \lyricmode {
 	no -- bis. %44 finis
 }
 
+SanctaMariaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key es \major \time 2/4 \autoBeamOff \tempoSanctaMaria
+		R2*15 %15
+		\mvTr es4\pE^\solo d8. as'16
+		as8 g r4
+		es~ es16[ as] as([ c)]
+		b8.([ c32 d)] es16([ d)] c([ g)]
+		b4( as)\trill %20
+		g r
+		b4. g16([ es)]
+		f4. b8
+		b8. a16 a8 g
+		\tuplet 3/2 8 { f16_([ g f] a[ b a] } c8) es, %25
+		es d r4
+		b'8. b16 b([ c)] c([ des)]
+		des8. e,16 e4
+		f8.([ g32 as)] g4
+		as8.([ b32 c)] b16([ g)] f([ e)] %30
+		f8.([ g32 as)] g4
+		as4. g16([ f)]
+		es8.([ d16)] d4
+		as'8 b16 c c([ b)] b([ as)]
+		as8. g16 g4 %35
+		c~ c16[ d32 es] d16([ c)]
+		\appoggiatura c b8([ as16 g)] f([ es)] g([ b)]
+		b4( as)\trill
+		g r
+		es g8. es16 %40
+		f8. b16 b4
+		es d16([ c)] b([ as)]
+		as8. g16 g4
+		c8 c16 c b([ as)] g([ f)]
+		f([ es d es)] es4 %45
+		d16([ es)] f g as8 g
+		g4\trill f
+		g~ \tuplet 3/2 8 { g16[ as g] es[ f es] }
+		\tuplet 3/2 8 { f[ g f] } b8 r4
+		\once \tieDashed a~ \tuplet 3/2 8 { a16[ b a] c[ d c] } %50
+		es[ d c b] a[ g f es]
+		d8 f b4~
+		b16[ d c b] a[ g] f([ es)]
+		d4( c)\trill
+		b r %55
+		R2*78 %133
+		\mvTr f'8.\fE^\tutti f16 es8 f
+		f8. f16 f4 %135
+		f8 f es f
+		f8. f16 f4
+		f8 f f f16 f
+		f8. es16 es4
+		r r8 g~ %140
+		g f r f~
+		f es r es~
+		es d r d
+		b4. c8
+		b2 %145
+		b4 f'
+		es8 es es([ d)]
+		es4 r\fermata \bar "||" %148 finis
+	}
+}
+
+SanctaMariaAltoLyrics = \lyricmode {
+	San -- cta Ma -- %16
+	ri -- a,
+	o -- ra,
+	o -- ra pro
+	no -- %20
+	bis,
+	San -- cta
+	De -- i
+	Ge -- ni -- trix, o --
+	ra __ pro %25
+	no -- bis
+	San -- cta Vir -- go
+	vir -- gi -- num,
+	o -- ra,
+	o -- ra pro %30
+	no -- bis,
+	Ma -- ter
+	Chri -- sti,
+	Ma -- ter di -- vi -- nae
+	gra -- ti -- ae, %35
+	o -- ra,
+	o -- ra pro
+	no --
+	bis,
+	Ma -- ter pu -- %40
+	ris -- si -- ma,
+	Ma -- ter cas --
+	tis -- si -- ma,
+	Ma -- ter in -- vi -- o --
+	la -- ta, %45
+	Ma -- ter in -- te -- me --
+	ra -- ta,
+	o -- _
+	_ ra,
+	o -- _ %50
+	_ _
+	ra, o -- ra __
+	_ pro
+	no --
+	bis. %55
+
+	Spe -- cu -- lum iu -- %134
+	sti -- ti -- ae, %135
+	Se -- des sa -- pi --
+	en -- ti -- ae,
+	Cau -- sa no -- strae lae --
+	ti -- ti -- ae,
+	o -- %140
+	ra, o --
+	ra, o --
+	ra, o --
+	ra pro
+	no -- %145
+	bis, o --
+	ra pro no --
+	bis. %148 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

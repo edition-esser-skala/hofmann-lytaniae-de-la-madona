@@ -240,6 +240,8 @@ sfz  = \dynScript "sfz" ##f
 sfzE = \dynScript "sfz" ##t
 fp   = \dynScript "fp"  ##f
 fpE  = \dynScript "fp"  ##t
+fz   = \dynScript "fz"  ##f
+fzE  = \dynScript "fz"  ##t
 rf   = \dynScript "rf"  ##f
 rfE  = \dynScript "rf"  ##t
 rfz  = \dynScript "rfz" ##f
@@ -433,9 +435,9 @@ sbOff = {
     (single-bracket grob))))
 
 
-bfbOpen =
+bo =
 \once \override BassFigureBracket.stencil = #(half-bfb LEFT)
-bfbClose =
+bc =
 \once \override BassFigureBracket.stencil = #(half-bfb RIGHT)
 
 
@@ -588,6 +590,7 @@ tocSection = #(define-music-function
 )
 
 tempoKyrie = \tempoMarkup "Allegro"
+tempoSanctaMaria = \tempoMarkup "Andante"
 
 
 
