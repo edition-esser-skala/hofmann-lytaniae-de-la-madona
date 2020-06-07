@@ -207,3 +207,79 @@ SanctaMariaViolinoII = {
 		es,4 r\fermata \bar "||" %148 finis
 	}
 }
+
+VasViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \tempoVas
+		R2.
+		r4 \tuplet 6/4 4 { r16 c\f( d es d c) g'-! c,( d es d c) }
+		des( c) c( h) \tuplet 6/4 4 { c-! c( d es d c) g'-! c,( d es d c) }
+		as'( g) g( fis) \tuplet 6/4 4 { g-! g( a h a g) d'-! d,( es f es d) }
+		es( d) d( c) as'( g) g( f) f( es d c) %5
+		\tuplet 6/4 4 { h-! g( a h a g) } g'( f) f( e) \tuplet 6/4 4 { f-! d( es f es d) }
+		\tuplet 6/4 4 { f-! g,( a h a g) } f'( es) es( d) \tuplet 6/4 4 { es-! c( d es d c) }
+		des( c) c( h) c8 c'16. c,32 d4\trill
+		c r r
+		R2.*2 %11
+		r4 \tuplet 6/4 4 { r16 es(\f f g f es) b'-! es,( f g f es) }
+		f( as) d,( es) \tuplet 6/4 4 { es-! es( f g f es) b'-! es,( f g f es) }
+		c'( es) a,( b) b4 r
+		\tuplet 6/4 4 { r16 b,(\p c d c b) f'-! d( es f es d) } as'8 r %15
+		R2.
+		r4 \tuplet 6/4 4 { r16 c,(\f d es d c) g'-! c,( d es d c) }
+		des( c) c( h) c4 r
+		R2.*2 %20
+		\tuplet 6/4 4 { r16 as(\p b c b as) es'-! c( des es des c) } as'8 r
+		\tuplet 6/4 4 { r16 b,( c d c b) f'-! d( es f es d) } b'8 r
+		\tuplet 6/4 4 { r16 c,( d es d c) g'-! es( f g f es) } c'8 r
+		R2.*3 %26
+		\tuplet 6/4 4 { r16 es,(\f f g f es) b'-! es,( f g f es) es'-! es,( f g f es) }
+		f( as) d,( es) \tuplet 6/4 4 { es-! es( f g f es) b'-! es,( f g f es) }
+		c'( es) a,( b) \tuplet 6/4 4 { b-! b( c d c b) f'-! f,( g as g f) }
+		g( f) f( es) c'( b) b( as) as( g f es) %30
+		\tuplet 6/4 4 { d-! b( c d c b) } b'( as) as( g) \tuplet 6/4 4 { as-! f( g as g f) }
+		\tuplet 6/4 4 { as-! b,( c d c b) } as'( g) g( f) \tuplet 6/4 4 { g-! es( f g f es) }
+		\tuplet 6/4 4 { c'( es d c b as) b( as g g f es) } f4\trill
+		es r r
+		r \tuplet 6/4 4 { r16 b(\pE c d c b) f'-! as( g f g as) } %35
+		h,4 r r
+		r \tuplet 6/4 4 { r16 c( d es d c) g'-! g,( a h a g) }
+		c4 r r
+		r \tuplet 6/4 4 { r16 g( a h a g) g'-! d( es f es d) }
+		es( h) h( c) c4 r %40
+		r \tuplet 6/4 4 { r16 g( a h a g) g'-! d( es f es d) }
+		es( h) h( c) c4 r
+		R2.*3 %45
+		r4 \tuplet 6/4 4 { r16 c( d es d c) g'-! c,( d es d c) }
+		des( c) c( h) \tuplet 6/4 4 { c-! c( d es d c) g'-! c,( d es d c) }
+		as'( g) g( fis) g4 r
+		R2.*4 %52
+		\tuplet 6/4 4 { r16 c,(\f d es d c) g-! c( d es d c) g'-! c,( d es d c) }
+		des( c) c( h) \tuplet 6/4 4 { c-! c( d es d c) g'-! c,( d es d c) }
+		as'( g) g( fis) \tuplet 6/4 4 { g-! g( a h a g) d'-! d,( es f es d) } %55
+		es( d) d( c) as'( g) g( f) f( es d c)
+		\tuplet 6/4 4 { h-! g( a h a g) } g'( f) f( e) \tuplet 6/4 4 { f-! d( es f es d) }
+		\tuplet 6/4 4 { f-! g,( a h a g) } f'( es) es( d) \tuplet 6/4 4 { es-! c( d es d c) }
+		des( c) c( h) c8 c'16. c,32 d4\trill
+		\tuplet 6/4 4 { c16-! c'( d es d c) } g'( f) f( es) es( d) d( c) %60
+		\tuplet 6/4 4 { h-! g( a h a g) d'-! h( c d c h) } g'( f) f( es)
+		\tuplet 6/4 4 { es-! c( d es d c) } as'( g) g( f) es( d) d( c)
+		c8.(\trill h32 c) h4 r
+		\tuplet 6/4 4 { c,16-! c'( d es d c) } g'( f) f( es) es( d) d( c)
+		\tuplet 6/4 4 { fis-! a( g fis g a) } g-! d-! b-! g-! d-! g-! d-! b-! %65
+		g b'( d b) \tuplet 6/4 4 { a( c b a g fis) } g-! b-! b-! g-!
+		g8.(\trill fis32 g) fis4 r
+		\tuplet 6/4 4 { g,16-! g'( a b a g) } d'-! b( a g) g'( h,) h( c)
+		c( d) d( es) es( f) f( g) g-! b,( c b)
+		\tuplet 6/4 4 { a-! f( g a g f) c'-! a( b c b a) } f'( a,) a( b) %70
+		b b,-! d-! f-! b-! f-! b-! d-! f f, f' f
+		f g, f' f es( d) d( c) c( b) b( a)
+		a( b c d) es( c b a) b-! b'( a b)
+		g-! es( d c) d-! b'-! b-! d,-! c8 a'
+		b,4 \tuplet 6/4 4 { f'16-! b,( c d c b) b'-! b,( c d c b) } %75
+		a( c) c( es) es( c) c( a) \tuplet 6/4 4 { b( d c b a b) }
+		g'( es) d( c) d( f) b( d,) c8 a'
+		b,4 r r\fermata \bar "||" %78 finis
+	}
+}

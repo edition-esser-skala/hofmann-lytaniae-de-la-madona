@@ -524,7 +524,7 @@ bc =
 	}
 	\context {
 		\Voice
-		\override TupletBracket.bracket-visibility = #'if-no-beam
+		\override TupletBracket.bracket-visibility = ##f
 		\override TupletBracket.avoid-scripts = ##f
 	}
 	\context {
@@ -591,6 +591,7 @@ tocSection = #(define-music-function
 
 tempoKyrie = \tempoMarkup "Allegro"
 tempoSanctaMaria = \tempoMarkup "Andante"
+tempoVas = \tempoMarkup "Andantino"
 
 
 

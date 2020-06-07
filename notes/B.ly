@@ -135,6 +135,142 @@ SanctaMariaBassoLyrics = \lyricmode {
 	bis. %148 finis
 }
 
+VasBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 3/4 \autoBeamOff \tempoVas
+		\mvTr c'4.\pE^\solo as8 g f
+		es8.([ d16)] c4 r
+		R2.*6 %8
+		c'4. as8 g f
+		es8.([ d16)] c4 c' %10
+		as4. g16([ as)] b8 as
+		g8.([ f16)] es4 r
+		R2.
+		r4 b' f8 d
+		b4. b8 as'4 %15
+		h, d'4. f,8
+		es8.([ d16)] c4 r
+		r g' c
+		as f8 d b b'
+		g4 es b' %20
+		c, r c'
+		d, r d'
+		es, r es'~
+		es8[ d c b as g]
+		as4 b,4. b'8 %25
+		g es b2
+		es4 r r
+		R2.*6 %33
+		r4 es g
+		b8. b,16 b4 r %35
+		h8([ as')] \appoggiatura as g4. f8
+		es8.([ d16)] c4 r
+		g' as4. as8
+		as8. g16 g4 r
+		r g as8. as16 %40
+		as8. g16 g4 r
+		r r8 g c8.[ b16]
+		as8.[ g16] f8.[ es16] d8 b'
+		g8.([ f16)] es8 es as8.[ g16]
+		f8.[ es16] d8.[ c16] h8 g' %45
+		es8.([ d16)] c4 r
+		as' g r
+		es' d4. f,8
+		es[ g] c4. b8
+		as8.[ g16] f8.[ es16] d8.[ c16] %50
+		h4 g'4. f8
+		es c' g2
+		c,4 r r
+		R2.*6 %59
+		\mvTr c2\fE^\tutti c4 %60
+		g'4. g8 g4
+		c, f fis
+		g g, r
+		c4. c8 c4
+		c4 b! r %65
+		g c cis
+		d d r
+		g4. g8 f!4
+		es2 e4
+		f4. f8 es es %70
+		d4 d b
+		es2 es4
+		f2 g4
+		es f2
+		b,4 r r %75
+		f'2 g4
+		es f2
+		b,4 r r\fermata \bar "||" %78 finis
+	}
+}
+
+VasBassoLyrics = \lyricmode {
+	Vas spi -- ri -- tu --
+	al -- e,
+
+	vas spi -- ri -- tu -- %9
+	al -- e, o -- %10
+	ra, o -- ra pro
+	no -- bis,
+
+	vas ho -- no --
+	ra -- bi -- le, %15
+	o -- ra pro
+	no -- bis,
+	vas in --
+	si -- gne de -- vo -- ti --
+	o -- nis, o -- %20
+	ra, o --
+	ra, o --
+	ra, o --
+
+	_ ra, o -- %25
+	ra pro no --
+	bis.
+
+	Ro -- sa %34
+	my -- sti -- ca, %35
+	o -- ra pro
+	no -- bis,
+	tur -- ris Da --
+	vi -- di -- ca,
+	tur -- ris e -- %40
+	bur -- ne -- a,
+	o -- _
+	_ _ ra pro
+	no -- bis, o -- _
+	_ _ ra pro %45
+	no -- bis,
+	o -- ra,
+	o -- ra, o --
+	_ _ _
+	_ _ _ %50
+	_ ra, o --
+	ra pro no --
+	bis.
+
+	Do -- mus %60
+	au -- re -- a,
+	o -- ra pro
+	no -- bis,
+	foe -- de -- ris
+	ar -- ca, %65
+	o -- ra pro
+	no -- bis,
+	ia -- nu -- a
+	coe -- li,
+	stel -- la ma -- tu -- %70
+	ti -- na, o --
+	ra pro
+	no -- bis,
+	pro no --
+	bis, %75
+	o -- ra
+	pro no --
+	bis. %78 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

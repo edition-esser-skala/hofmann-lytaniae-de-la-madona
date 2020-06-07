@@ -92,75 +92,146 @@
 	% 		\midi { \tempo 4 = 80 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "2"
+	% 		title = "S A N C T A   M A R I A"
+	% 	}
+	% 	% \tocSection "2" "Sancta Maria"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set StaffGroup.instrumentName = \markup { \center-column { "clno" "1, 2" } }
+	% 					% \transpose c b,
+	% 					\partcombine \SanctaMariaClarinoI \SanctaMariaClarinoII
+	% 				>>
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "timp"
+	% 				% \transpose c b,
+	% 				\SanctaMariaTimpani
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\SanctaMariaViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\SanctaMariaViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \SanctaMariaSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \SanctaMariaSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \SanctaMariaAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \SanctaMariaAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \SanctaMariaTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \SanctaMariaTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \SanctaMariaBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \SanctaMariaBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\SanctaMariaOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \SanctaMariaBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "2"
-			title = "S A N C T A   M A R I A"
+			number = "3"
+			title = "V A S   S P I R I T U A L E"
 		}
-		% \tocSection "2" "Sancta Maria"
+		% \tocSection "3" "Vas spirituale"
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff <<
 						\set StaffGroup.instrumentName = \markup { \center-column { "clno" "1, 2" } }
 						% \transpose c b,
-						\partcombine \SanctaMariaClarinoI \SanctaMariaClarinoII
+						\partcombine \VasClarinoI \VasClarinoII
 					>>
 				>>
 				\new Staff {
 					\set Staff.instrumentName = "timp"
 					% \transpose c b,
-					\SanctaMariaTimpani
+					\VasTimpani
 				}
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\SanctaMariaViolinoI
+							\VasViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\SanctaMariaViolinoII
+							\VasViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \SanctaMariaSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \VasSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \SanctaMariaSopranoLyrics
+					\new Lyrics \lyricsto Soprano \VasSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \SanctaMariaAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \VasAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \SanctaMariaAltoLyrics
+					\new Lyrics \lyricsto Alto \VasAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \SanctaMariaTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \VasTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \SanctaMariaTenoreLyrics
+					\new Lyrics \lyricsto Tenore \VasTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \SanctaMariaBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \VasBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \SanctaMariaBassoLyrics
+					\new Lyrics \lyricsto Basso \VasBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\SanctaMariaOrgano
+						\VasOrgano
 					}
 				>>
-				\new FiguredBass { \SanctaMariaBassFigures }
+				\new FiguredBass { \VasBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 70 }
 		}
 	}
 }

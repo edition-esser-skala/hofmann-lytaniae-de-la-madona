@@ -59,3 +59,20 @@ SanctaMariaClarinoI = {
 		c r\fermata \bar "||" %148 finis
 	}
 }
+
+VasClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoVas
+		R2.*69 %69
+		d'4.\f d8 d d %70
+		c4 c r
+		R2.
+		d2 c4
+		r c d
+		c r r %75
+		d f e
+		\pa e8 d e e d d \pd
+		c4 r r\fermata \bar "||" %78 finis
+	}
+}

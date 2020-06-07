@@ -59,3 +59,20 @@ SanctaMariaTimpani = {
 		c r\fermata \bar "||" %148 finis
 	}
 }
+
+VasTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoVas
+		R2.*69 %69
+		g4.\f g8 g g %70
+		c4 c r
+		R2.
+		g4 g c
+		r c g
+		c r r %75
+		g g c
+		r c8 c g g
+		c4 r r\fermata \bar "||" %78 finis
+	}
+}

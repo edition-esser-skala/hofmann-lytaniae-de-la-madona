@@ -216,6 +216,55 @@ SanctaMariaTenoreLyrics = \lyricmode {
 	bis. %148 finis
 }
 
+VasTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \minor \time 3/4 \autoBeamOff \tempoVas
+		R2.*59 %59
+		\mvTr es2\fE^\tutti es4 %60
+		d4. c8 h4
+		c d es
+		es d r
+		es4. es8 es4
+		a, b r %65
+		b a g
+		g fis r
+		d'4. d8 d4
+		c2 c4
+		c4. c8 c c %70
+		b4 b r
+		b2 c4
+		c2 b4~
+		b8 b b4( a)
+		b r r %75
+		c2 b4~
+		b8 b b4( a)
+		b r r\fermata \bar "||" %78 finis
+	}
+}
+
+VasTenoreLyrics = \lyricmode {
+	Do -- mus %60
+	au -- re -- a,
+	o -- ra pro
+	no -- bis,
+	foe -- de -- ris
+	ar -- ca, %65
+	o -- ra pro
+	no -- bis,
+	ia -- nu -- a
+	coe -- li,
+	stel -- la ma -- tu -- %70
+	ti -- na,
+	o -- ra,
+	o -- ra __
+	pro no --
+	bis, %75
+	o -- ra __
+	pro no --
+	bis. %78 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

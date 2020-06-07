@@ -228,6 +228,55 @@ SanctaMariaAltoLyrics = \lyricmode {
 	bis. %148 finis
 }
 
+VasAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \autoBeamOff \tempoVas
+		R2.*59 %59
+		\mvTr g'2\fE^\tutti g4 %60
+		g4. g8 g4
+		g as a
+		g g r
+		g4. g8 g4
+		fis g r %65
+		g es e
+		d d r
+		g4. g8 g4
+		g2 g4
+		f4. f8 f f %70
+		f4 f f
+		g2 g4
+		f4.( es8) d4
+		g f2
+		f4 r r %75
+		f( es) d
+		g f2
+		f4 r r\fermata \bar "||" %78 finis
+	}
+}
+
+VasAltoLyrics = \lyricmode {
+	Do -- mus %60
+	au -- re -- a,
+	o -- ra pro
+	no -- bis,
+	foe -- de -- ris
+	ar -- ca, %65
+	o -- ra pro
+	no -- bis,
+	ia -- nu -- a
+	coe -- li,
+	stel -- la ma -- tu -- %70
+	ti -- na, o --
+	ra pro
+	no -- bis,
+	pro no --
+	bis, %75
+	o -- ra
+	pro no --
+	bis. %78 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

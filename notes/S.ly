@@ -192,6 +192,55 @@ SanctaMariaSopranoLyrics = \lyricmode {
 	bis. %148 finis
 }
 
+VasSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \autoBeamOff \tempoVas
+		R2.*59 %59
+		\mvTr c'2\fE^\tutti c4 %60
+		h4. c8 d4
+		es d c
+		c h r
+		c4. c8 c4
+		es d r %65
+		d c b
+		b a r
+		b4. b8 h4
+		c2 b4
+		a4. a8 a a %70
+		b4 f f'~
+		f es8([ d)] c([ b)]
+		a2 b4~
+		b8 c d4( c)
+		b f' b, %75
+		a2 b4~
+		b8 c d4( c)
+		b r r\fermata \bar "||" %78 finis
+	}
+}
+
+VasSopranoLyrics = \lyricmode {
+	Do -- mus %60
+	au -- re -- a,
+	o -- ra pro
+	no -- bis,
+	foe -- de -- ris
+	ar -- ca, %65
+	o -- ra pro
+	no -- bis,
+	ia -- nu -- a
+	coe -- li,
+	stel -- la ma -- tu -- %70
+	ti -- na, o --
+	ra __ pro __
+	no -- bis, __
+	pro no --
+	bis, o -- ra, %75
+	o -- ra __
+	pro no --
+	bis. %78 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
