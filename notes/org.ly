@@ -566,6 +566,90 @@ VasBassFigures = \figuremode {
 	r2. %78 finis
 }
 
+SalusOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoSalus
+		\mvTr g8\f-\solo g'16.-! d32-! b8-! d16.-! b32-! g8 b'\p c c,
+		d d'16.-!\f a32-! fis8-! a16.-! fis32-! d4 r8 fis\p
+		g4 r8 h,16( c) c4 r8 c16( b)
+		b4 r8 b16( a) a4 r16 fis' fis fis
+		g8\ff b es, g cis,( c) b-! r %5
+		c\p r d d g16.-!\f d32-! es16.-! b32-! c8-\parenthesize-! d-\parenthesize-!
+		g, g'16.\p d32 b8 d16. b32 g4 c8 es
+		d d'16. a32 fis8 a16. fis32 d4 fis8 fis
+		g g, g' b c c, r c
+		d8. e16 fis4 g8 g, r16 g b g %10
+		c4. cis8 d d, d'16 es d c
+		b8 b d b a a a a
+		a a a a b4. b8
+		c4 f, b r8 b'
+		a4 as g! ges %15
+		f8 f f-\tasto f f f f f
+		f f f f b,4 r
+		d es f8\pocoF f f, f
+		b4 r8 d16(\fE es) es4 r8 es16( d)
+		d4 r8 d16( c) c4 r16 a' a a %20
+		b8\ff d g, b e,( es) d4\p
+		es f8 f b16.-!\f f32-! g16.-! d32-! es8-\parenthesize-! f-\parenthesize-!
+		b, d16.\p f32 b8 as g g,16 a h8 h
+		c es16 d es8 c d d fis fis
+		g4 r8 g fis4. \once \slurDashed f16( e) %25
+		e4. es16( d) d4. d8
+		d d cis cis d d' d,16 c b a
+		g8 g' b g a a d, d
+		g4 g,8 b c2
+		d8. e16 fis8 d g4 g, %30
+		c a d r8 es16( d)
+		d4 r8 d g, g' g c,
+		d\pocoF d d d g,4 r8 h16(\f c)
+		c4 r8 c16( b) b4 r8 b16( a)
+		a4 r16 fis' fis fis g8\ff b es, g %35
+		cis,( c) b r c\p r d d
+		g16.-!\f d32-! es16.-! b32-! c8-! d-! g,4 r\fermata \bar "||" %37 finis
+	}
+}
+
+SalusBassFigures = \figuremode {
+	r2 r8 <[6]>4.
+	<_+>2.. <[6 5]>8
+	r4. <[6]>8 r2
+	\bo <[6]>2 <7>16 \bc <[6\\]> r8. <7>
+	<8 3>2 \bassFigureExtendersOn q8 \bassFigureExtendersOff <4\+ _-> <6>4 %5
+	r <6 4>8 <[7] _+> r2
+	r2.. <[6]>8
+	<4> <_+> r2 \bo <[6]>8 \bc <[5]>
+	<4>8 <3>4 <[6]>8 r4. <[6]>8
+	<9 _+> <8 \t> \bo <[6]> \bc <[5]> <9 4> <8 3>4. %10
+	<9 7>8 <8 6>4 <7 5 [_!]>8 <6 4> <5 _+> <_!>4
+	r4 \bo <[6]> \bc q2
+	<7-> <4>4 <_->
+	<9 _!>8 <8> <[7-]>4 <_->4. <6->8
+	<7->4 <6> <7> <6> %15
+	<7>8 <6! 4>2..
+	r1
+	\bo <[6 5-]>4 <9 4>16 <8 3> <9 7> \bc <[8 6]> <6 4>4 <[5] 3>
+	r4. <[6]>8 r2
+	\bo <[6]>2 <7>16 \bc <[6]> r8. <7> %20
+	<8 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <6 5>8 <4 2> <6>4
+	r <6 4>8 <[7 3]> r2
+	r4. \bo <[2]>8 \bc <[4]> <_!> \bo <[6]> \bc <[5]>
+	r \bo <[6]>4 <6>8 \bc <[4]> <_+> \bo <[6]> \bc <[5]>
+	r4. <6>8 <7>4 <6> %25
+	<7> <6> <7 _+>2
+	\bo <[5 _+ \l]>8 <\t \t>16 <6 4> \bc <[7 5 _!]>4 <_+>2
+	r4 <[6]> <7 [4]> <[7] _+>
+	<9 4> <8 3> \bo <[5]> <6->8 \bc <[5]>
+	<9 _+> <8 \t> \bo <[6 \l]> \bc <[7 _+]> <9>8 <8> <_!>4 %30
+	q <[5!] _+> <_+>4. \bo <[6]>16 \bc <[_+]>
+	<_+>4. \bo <[6 4]>16 \bc <[5 _+]> r4. <[6]>8
+	<6 4>4 <[5] _+> r4. <[6]>8
+	r2 <[6]>
+	\bo <[7]>16 \bc <[6\\]> r8. <7> <8 3>2 \bassFigureExtendersOn %35
+	q8 \bassFigureExtendersOff <4\+ _-> <6>2 <6 4>8 <[7] _+>
+	r1 %37 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

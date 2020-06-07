@@ -8,6 +8,7 @@
 
 \paper {
 	#(set-paper-size "a4" 'landscape)
+	indent = 1\cm
 	% #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
 }
 
@@ -163,75 +164,133 @@
 	% 		\midi { \tempo 4 = 60 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "3"
+	% 		title = "V A S   S P I R I T U A L E"
+	% 	}
+	% 	\tocSection "3" "Vas spirituale"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new Staff <<
+	% 					\set StaffGroup.instrumentName = \markup { \center-column { "clno" "1, 2" } }
+	% 					% \transpose c b,
+	% 					\partcombine \VasClarinoI \VasClarinoII
+	% 				>>
+	% 			>>
+	% 			\new Staff {
+	% 				\set Staff.instrumentName = "timp"
+	% 				% \transpose c b,
+	% 				\VasTimpani
+	% 			}
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "vl"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "1"
+	% 						\VasViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "2"
+	% 						\VasViolinoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "S"
+	% 					\new Voice = "Soprano" { \dynamicUp \VasSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \VasSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "A"
+	% 					\new Voice = "Alto" { \dynamicUp \VasAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \VasAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "T"
+	% 					\new Voice = "Tenore" { \dynamicUp \VasTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \VasTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "B"
+	% 					\new Voice = "Basso" { \dynamicUp \VasBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \VasBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
+	% 					% \transpose c c,
+	% 					\VasOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \VasBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 70 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "3"
-			title = "V A S   S P I R I T U A L E"
+			number = "4"
+			title = "S A L U S   I N F I R M O R U M"
 		}
-		% \tocSection "3" "Vas spirituale"
+		\paper {
+			top-markup-spacing.basic-distance = #0
+			top-markup-spacing.minimum-distance = #0
+			markup-system-spacing.basic-distance = #10
+			markup-system-spacing.minimum-distance = #10
+			top-system-spacing.basic-distance = #10
+			top-system-spacing.minimum-distance = #10
+			system-system-spacing.basic-distance = #18
+			system-system-spacing.minimum-distance = #18
+			systems-per-page = #2
+		}
+		% \tocSection "4" "Salus infirmorum"
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff <<
-						\set StaffGroup.instrumentName = \markup { \center-column { "clno" "1, 2" } }
-						% \transpose c b,
-						\partcombine \VasClarinoI \VasClarinoII
-					>>
-				>>
-				\new Staff {
-					\set Staff.instrumentName = "timp"
-					% \transpose c b,
-					\VasTimpani
-				}
-				\new StaffGroup <<
-					\new GrandStaff <<
+					\new GrandStaff \with { \smallGroupDistance } <<
 						\set GrandStaff.instrumentName = "vl"
 						\new Staff {
 							\set Staff.instrumentName = "1"
-							\VasViolinoI
+							\SalusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "2"
-							\VasViolinoII
+							\SalusViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "S"
-						\new Voice = "Soprano" { \dynamicUp \VasSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \SalusSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \VasSopranoLyrics
+					\new Lyrics \lyricsto Soprano \SalusSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "A"
-						\new Voice = "Alto" { \dynamicUp \VasAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \SalusAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \VasAltoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "T"
-						\new Voice = "Tenore" { \dynamicUp \VasTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \VasTenoreLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "B"
-						\new Voice = "Basso" { \dynamicUp \VasBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \VasBassoLyrics
+					\new Lyrics \lyricsto Alto \SalusAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "org" "b" } }
 						% \transpose c c,
-						\VasOrgano
+						\SalusOrgano
 					}
 				>>
-				\new FiguredBass { \VasBassFigures }
+				\new FiguredBass { \SalusBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 70 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

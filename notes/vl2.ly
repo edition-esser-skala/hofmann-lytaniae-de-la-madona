@@ -283,3 +283,47 @@ VasViolinoII = {
 		b,4 r r\fermata \bar "||" %78 finis
 	}
 }
+
+SalusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoSalus
+		g8\f g'16.-! d32-! b8-! d16.-! b32-! g8 d''16(\p es) es8. g,16
+		g fis d'16.-!\f a32-! fis8-! a16.-! fis32-! d8 \once \slurDashed a'16(\p c) c8. a16
+		\once \slurDashed a( g) g8 r d16( es) es4 r8 es16( d)
+		d4 r8 d16( c) c8 fis16( a) c8.(\fz b32 a)
+		g16\ffE b8 b b b16 e,8 es d16 b'(\p a g) %5
+		r c( b a) r g r c, b16.-!\f d32-! es16.-! b32-! c8-\parenthesize-! d-\parenthesize-!
+		g, g'16.\p d32 b8 d16. b32 g8 r r4
+		d'8 d'16. a32 fis8 a16. fis32 d8 r r4
+		r2 r8 g c \appoggiatura b16 a8
+		\appoggiatura g fis8. g16 \once \tieDashed a4~ a16 fis( g a) b4~ %10
+		b8 a4 g8 g\trillE fis r f
+		b8. b,16 b4 r2
+		ges'4. ges8 f4~ f16 b( ges f)
+		e4 es16 f32 ges f16 es des8 f16 ges ges4~
+		ges8 e16 f f4. d16 es \once \tieDashed es4~ %15
+		es8 d! c es d f es d
+		c b a c b4 r
+		r8 f'16( as) as( g f es) d8\pocoF d' r c
+		b,4 r8 f'16(\fE g) g4 r8 g16( f)
+		f4 r8 f16( es) es8 \once \slurDashed a16( c) es8.(\fz d32 c) %20
+		b16\ff d8 d d d16 c4 f,16 d'(\p c b)
+		r es( d c) r b r es, d16.-!\f f32-! g16.-! d32-! es8-! f-!
+		b,4 r r2
+		g'4.\pE c16( a) g8 fis16 g a8 c,
+		b16 a g8 r \once \slurDashed b'16( a) a4. a16( g) %25
+		g4. g16( fis) fis4. fis8
+		fis8. g16 g4\trillE fis r8 d
+		g4 g8 g g4 fis8 a
+		a g16 fis g4 r8 g as g
+		fis8. g16 a4~ a8 g4 f8 %30
+		e g~ g16 b a g fis4 r8 \once \slurDashed g16( fis)
+		fis8 c'16 b b a g fis g8. a16 b8 c16 a
+		g8\pocoFE b r a g4 r8 d16(\fE es)
+		es4 r8 es16( d) d4 r8 d16( c)
+		c8 fis16( a) c8.(\fzE b32 a) g16\ff b8 b b b16 %35
+		e,8 es d16 b'(\pE a g) r c( b a) r g r c,
+		b16.-!\fE d32-! es16.-! b32-! c8-! d-! g,4 r\fermata \bar "||" %37 finis
+	}
+}

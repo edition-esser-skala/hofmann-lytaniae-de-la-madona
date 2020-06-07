@@ -241,6 +241,69 @@ VasSopranoLyrics = \lyricmode {
 	bis. %78 finis
 }
 
+SalusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoSalus
+		R1*6 %6
+		\mvTr d'2~\pE^\solo d8 c16([ d)] es8 g,
+		g fis r4 r2
+		r8 d'\appoggiatura c16 b8 \appoggiatura a16 g8 es'2~
+		es8 d4 c8~ c16[ a] b c d4~ %10
+		d8 c16.([ es64 d)] c8 b b a r4
+		r r8 b f'8. f,16 f4
+		es'4. es8 es8[ des16 c] des4~
+		des8[ c16 b] a4 b r8-\critnote des16([ c)]
+		c4. c16([ b)] b4. b16([ a)] %15
+		a8 b~ b16[ a c8]~ c16[ b d!8]~ d16[ c8 b16]~
+		b[ a8 g f es16] d8 f b d
+		f4~ f16[ es] d c b4( a)\trill
+		b r r2
+		R1*3 %22
+		b4. f'16([ d)] c8( h16) c d8 f,
+		es16([ d)] c8 r4 r2
+		r8 d'16([ es)] es4. cis16([ d)] d4~ %25
+		d8 h16([ c)] c4. es16([ d)] d([ c)] b([ a)]
+		a8.([ b16] \once \stemUp b4)\trill a r
+		r r8 g c4 c8 c
+		c([ b16 a)] b8 d es2~
+		es8 d4 c8 b4 h %30
+		c( cis) d8 d16([ c)] c4~
+		c8 es16([ d)] d([ c)] b([ a)] b8.([ c16)] d8 es16([ c)]
+		b4( a)\trill g r
+		R1*3 %36
+		R1\fermataMarkup \bar "||" %37 finis
+	}
+}
+
+SalusSopranoLyrics = \lyricmode {
+	Sa -- lus in -- fir -- %7
+	mo -- rum,
+	o -- ra pro no --
+	_ _ bis, o -- ra, __ %10
+	o -- ra pro no -- bis,
+	re -- fu -- gi -- um
+	pec -- ca -- to -- _
+	_ rum, o --
+	ra, o -- ra, o -- %15
+	ra, o --
+	ra, o -- ra pro
+	no -- bis, pro no --
+	bis.
+
+	Con -- so -- la -- trix af -- fli -- %23
+	cto -- rum,
+	o -- ra, o -- ra, __ %25
+	o -- ra, o -- ra pro
+	no -- bis,
+	au -- xi -- li -- um
+	Chri -- sti -- a -- no --
+	rum, o -- ra pro %30
+	no -- bis, o -- ra, __
+	o -- ra pro no -- bis, pro
+	no -- bis. %33 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

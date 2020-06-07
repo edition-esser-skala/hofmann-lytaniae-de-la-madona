@@ -284,6 +284,50 @@ VasViolinoI = {
 	}
 }
 
+SalusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoSalus
+		g8\f g'16.-! d32-! b8-! d16.-! b32-! g8 d''16(\p es) es8. g,16
+		g fis d'16.-!\f a32-! fis8-! a16.-! fis32-! d8 fis'16(\p a) a8. c,16
+		c( b) d(\fz g,) g4. es'16(\fz g,) g4~
+		g8 d'16(\fz g,) g4~ g16 fis( a c) es8.(\fz d32 c)
+		b16\ff g'8 g g g16 b8. \tuplet 3/2 16 { a32( g fis) } g16 d(\pE c b) %5
+		r es( d c) r b r fis g16.-!\f d32-! es16.-! b32-! c8-\parenthesize-! d-\parenthesize-!
+		g, g'16.\p d32 b8 d16. b32 g8 r r4
+		d'8 d'16. a32 fis8 a16. fis32 d8 r r4
+		r8 d' \appoggiatura c16 b8 \appoggiatura a16 g8 es'2~
+		es8 d4 c8~ c16 a( b c) d4~ %10
+		d8 c4 b8 b\trill a r4
+		r r8 b f'8. f,16 f4
+		es'4. es8~ es des16 c des4~
+		des8 c16 b a4 b r8 des16 c
+		c4. c16 b b4. b16 a %15
+		a8 b~ b16 a^\critnote c8~ c16 b d!8~ d16 c8 b16~
+		b a8 g f es16 d8 f b d
+		f4~ f16 es( d c) b8\pocoFE b' r a
+		r f16(\fzE b,) b4~ b8 g'16(\fz b,) b4~
+		b8 f'16(\fz b,) b4~ b16 a( c es) g8.(\fz f32 es) %20
+		d16\ff b'8 b b b16 b8. \tuplet 3/2 16 { a32( g f) } b16 f(\p es d)
+		r g( f es) r d r a b16.-!\f f32-! g16.-! d32-! es8-! f-!
+		b, b'4\p f'16 d c8 h16 c d8 f,
+		es16 d c8 r4 r2
+		r8 d'16( es) es4. \once \slurDashed cis16( d) d4~ %25
+		d8 \once \slurDashed h16( c) c4. es16 d d c b a
+		a8. b16 b4\trill a r
+		r r8 g c4 c8 c
+		c b16 a b8 d es2~
+		es8 d4 c8 b4 h %30
+		c cis d8 d16( c) c4~
+		c8 es16 d d c b a
+		b8. c16 d8 es16 c b8\pocoF g' r fis g, d'16(\fz g,) g4~
+		g8 es'16(\fz g,) g4~ g8 d'16(\fz g,) g4~
+		g16 fis( a c) es8.(\fz d32 c) b16\ff g'8 g g g16 %35
+		b8. \tuplet 3/2 16 { a32( g fis) } g16 d(\p c b) r es( d c) r b r fis
+		g16.-!\fE d32-! es16.-! b32-!c8-! d-! g,4 r\fermata \bar "||" %37 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

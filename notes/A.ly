@@ -277,6 +277,65 @@ VasAltoLyrics = \lyricmode {
 	bis. %78 finis
 }
 
+SalusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoSalus
+		R1*7 %7
+		\mvTr a'2~\pE^\solo a8 fis16([ g]) a8 c,
+		c b r4 r8 g' c \appoggiatura b16 a8
+		\appoggiatura g fis8.[ g16] a4~ a16[ fis] g a b4~ %10
+		b8 a16.([ c64 b)] a8 g g fis r f
+		b8. b,16 b4 r2
+		ges'4. ges8 f4~ f16[ b ges f]
+		e4 es16[ f32 ges f16 es] des8 f16([ ges)] ges4~
+		ges8 e16([ f)] f4. d16([ es)] es4~ %15
+		es8 d![ c es] d[ f es d]
+		c[ b a c] b4 r
+		r8 f'16([ as)] as([ g)] f([ es)] d4( c)\trill
+		b r r2
+		R1*4 %23
+		g'4. c16([ a)] g8( fis16) g a8 c,
+		b16([ a)] g8 r b'16([ a)] a4. a16([ g)] %25
+		g4. g16([ fis)] fis4. fis8
+		fis8.([ g16] g4)\trill fis r8 d
+		g4 g8 g g4 fis8 a
+		a([ g16 fis]) g4 r8 g as g
+		fis8.[ g16] a4~ a8 g4 f8 %30
+		e[ g]~ g16[ b a g] fis4 r8 g16([ fis)]
+		fis8 c'16([ b)] b([ a)] g([ fis)] g8.([ a16)] b8 c16([ a)]
+		g4( fis)\trill g r
+		R1*3 %36
+		R1\fermataMarkup \bar "||" %37 finis
+	}
+}
+
+SalusAltoLyrics = \lyricmode {
+	Sa -- lus in -- fir -- %8
+	mo -- rum, o -- ra pro
+	no -- _ bis, o -- ra, __ %10
+	o -- ra pro no -- bis, re --
+	fu -- gi -- um
+	pec -- ca -- to --
+	_ _ rum, o -- ra, __
+	o -- ra, o -- ra, __ %15
+	o -- _
+	_ ra,
+	o -- ra pro no --
+	bis.
+
+	Con -- so -- la -- trix af -- fli -- %24
+	cto -- rum, o -- ra, o -- %25
+	ra, o -- ra pro
+	no -- bis, au --
+	xi -- li -- um Chri -- sti -- a --
+	no -- rum, o -- ra pro
+	no -- _ _ _ %30
+	_ bis, o --
+	ra, o -- ra pro no -- bis, pro
+	no -- bis. %33 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
