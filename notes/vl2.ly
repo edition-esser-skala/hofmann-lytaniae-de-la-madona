@@ -327,3 +327,75 @@ SalusViolinoII = {
 		b16.-!\fE d32-! es16.-! b32-! c8-! d-! g,4 r\fermata \bar "||" %37 finis
 	}
 }
+
+ReginaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoRegina
+		b'16(\fE c32 d es f g a) b16 b, b b b b b b
+		b( c32 d es f g a) b16 b, b b b b b b
+		c g'( f es) es( d) d( c) c( b) b( a)
+		b4 b, r
+		d8\p d d d d d %5
+		es es c c b b
+		a a a a c c
+		d d b b a a
+		g g g g b b
+		c c b b a a %10
+		e' e c c f f
+		b, b c c c c
+		f4\f r r
+		f16( g32 a b c d e) f16 f, f f f f f f
+		f( g32 a b c d e) f16 f, f f f f f f %15
+		g d''( c b) b( a) a( g) g( f) f( e)
+		f4 c r
+		R2.*9 %26
+		f,16(\f g32 a b c d e) f16 f, f' f f f f f
+		f( g) g( as) as( g) g( f) f( es) es( d)
+		d'-! f,( es d) es-! c( h c) g c es, g
+		c,( d32 es f g a h) c16 c, c' d es g( f es) %30
+		c'( a) f( es) d4 r
+		b16( c32 d es f g a) b16 b, b b b b b b
+		c( d32 es f g a b) c16 c, c c c c c c
+		b-! b( a b) c-! c( es c) b-! b( d b)
+		b4\trill a r %35
+		a16( b32 c d es f g) a16 a, a a a a a a
+		h as'( g f) f( es) es( d) d( c) c( h)
+		c c, c' c d d, d' d es es, es' es
+		f( d) h( g) es'-! c( h c) g c es, g
+		c, es' es es es( d) d( c) c( b) a( g) %40
+		fis a' a a a( fis) fis( es) es( c) c( a)
+		d-! b( d b) a-! a( c a) g-! g( b g)
+		g4\trillE fis r
+		d'16( e32 fis g a b c) d16 d, d d d' d, c' d,
+		b'4 g,, r %45
+		a'16( b32 c d e f g) a16( f) c'-! c-! c( a) f( es)
+		d4 b, r
+		f''16( d) d( f) f( b) b( d) d-! d,( c b)
+		g8 c16( es) es( c) c( es) es-! c( b a)
+		b( d,) d( f) f( b) b( d) d( f) f( d) %50
+		d8 d16( b) c-! c( es c) b-! b( d b)
+		b4\trill a r
+		f'16\ff f, f' f f f f f f f f f
+		e e, e' e e e e e e e e e
+		es es, es' es es es es es es es es es %55
+		d d, d' d d d d d d d d d
+		es( c) c( es) es( c) c( b) b-! d( c d)
+		c-! g'( f es) d f b d, c8 a'
+		b,16 b d b f b d, f b,4
+		R2. %60
+		b'8\p r g r es r
+		c r r4 r
+		a'8 r f r d r
+		b 4 r4 r
+		g'8 r es r c r %65
+		a r r4 a8 r
+		b r d4. es16( c)
+		d8 es16( f) g4. f16( es)
+		d8 r r4 r
+		r4 d'16-!\f b( a b) c-! a( g f) %70
+		es'-! c( b c) d-! b( a b) d( b) f'( d)
+		\slurDashed b'( d,) d( b') b( c,) c( b') \slurSolid f,8 a'
+		b,4 r r\fermata \bar "||" %73 finis
+	}
+}

@@ -265,6 +265,112 @@ VasTenoreLyrics = \lyricmode {
 	bis. %78 finis
 }
 
+ReginaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 3/4 \autoBeamOff \tempoRegina
+		\mvTr d2.\fE^\tutti
+		d2 d4
+		c2 c4
+		d d r
+		R2.*9 %13
+		\mvTr c2.\fE^\tuttiE
+		d2 c4 %15
+		d4. d8 c4
+		c c r
+		R2.*9 %26
+		\mvTr c4\fE^\tuttiE c c
+		d2 d4
+		d c r
+		c c c %30
+		c b r
+		b2.
+		c2 c4
+		b c b
+		b a r %35
+		a a a
+		as4. as8 as4
+		g h c
+		d c r
+		c2. %40
+		a2 a4
+		b( a) g
+		g fis r
+		fis fis fis
+		g g r %45
+		a a a
+		b b r
+		d2.
+		c2 c4
+		b4. b8 b4 %50
+		b g g
+		f f r
+		a2.
+		b2 b4
+		c c c %55
+		b4. b8 b4
+		c2 b4~
+		b8 b b4( a)
+		b r r
+		R2.*10 %69
+		r4 \mvTr b\fE^\tutti c %70
+		c d r
+		b b( a)
+		b r r\fermata \bar "||" %73 finis
+	}
+}
+
+ReginaTenoreLyrics = \lyricmode {
+	Re --
+	gi -- na
+	An -- ge --
+	lo -- rum.
+
+	Re --
+	gi -- na %15
+	Pa -- tri -- ar --
+	cha -- rum.
+
+	Re -- gi -- na %27
+	Pro -- phe --
+	ta -- rum,
+	o -- ra pro %30
+	no -- bis,
+	re --
+	gi -- na
+	A -- po -- sto --
+	lo -- rum, %35
+	re -- gi -- na
+	Mar -- ty -- rum,
+	o -- ra pro
+	no -- bis,
+	re -- %40
+	gi -- na
+	Con -- fes --
+	so -- rum,
+	o -- ra pro
+	no -- bis, %45
+	o -- ra pro
+	no -- bis,
+	re --
+	gi -- na
+	Vir -- gi -- num, %50
+	o -- ra pro
+	no -- bis,
+	re --
+	gi -- na
+	San -- cto -- rum %55
+	o -- mni -- um,
+	o -- ra __
+	pro no --
+	bis,
+
+	o -- ra, %70
+	o -- ra
+	pro no --
+	bis. %73 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

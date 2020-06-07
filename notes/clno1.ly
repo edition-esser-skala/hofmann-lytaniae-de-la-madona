@@ -76,3 +76,49 @@ VasClarinoI = {
 		c4 r r\fermata \bar "||" %78 finis
 	}
 }
+
+ReginaClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoRegina
+		c'2.\f
+		e2 e4
+		\pao d2 d4
+		c c r
+		R2.*9 %13
+		g'2.\fE
+		g2 g4 %15
+		g2 fis4
+		g g r
+		R2.*9 %26
+		g4\fE g g
+		g2 g4
+		g f r
+		f f f %30
+		f e r
+		e2.
+		f2 f4
+		e f e
+		e d r %35
+		R2.*10 %45
+		d2\fE d4
+		e e r
+		e2.
+		d2 d4
+		e4. e8 e4 %50
+		r r e
+		e d r
+		\pao g,2 r4
+		\pao g2 r4
+		d' d d %55
+		e4. e8 e4
+		f2 e4
+		\pao d e d
+		c r r
+		R2.*10 %69
+		r4 e\fE d %70
+		f e r
+		e d d
+		c r r\fermata \bar "||" %73 finis
+	}
+}

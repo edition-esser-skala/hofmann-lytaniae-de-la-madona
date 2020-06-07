@@ -328,6 +328,78 @@ SalusViolinoI = {
 	}
 }
 
+ReginaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \tempoRegina
+		b'16(\fE c32 d es f g a) b16 b, b b b b b b
+		b( c32 d es f g a) b16 b, b b b b b b
+		c g'( f es) es( d) d( c) c( b) b( a)
+		b4 b, r
+		d8\p d d d d d %5
+		es es c c b b
+		a a a a c c
+		d d b b a a
+		g g g g b b
+		c c b b a a %10
+		e' e c c f a
+		c16( b a g) f8 f e e
+		f4\f r r
+		f16( g32 a b c d e) f16 f, f f f f f f
+		f( g32 a b c d e) f16 f, f f f f f f %15
+		g d''( c b) b( a) a( g) g( f) f( e)
+		f4 c r
+		R2.*9 %26
+		f,16(\f g32 a b c d e) f16 f, f' f f f f f
+		f( g) g( as) as( g) g( f) f( es) es( d)
+		d'-! f,( es d) es-! c( h c) g c es, g
+		c,( d32 es f g a h) c16 c, c' d es g( f es) %30
+		c'( a) f( es) d4 r
+		d16( es32 f g a b c) d16 d, d d d d d d
+		es( f32 g a b c d) es16 es, es es es es es es
+		d-! d( c d) es-! es( c' es,) d-! d( b' d,)
+		d4\trill c r %35
+		c16( d32 e f g a b) c16 c, c c c c c c
+		h as'( g f) f( es) es( d) d( c) c( h)
+		c c, c' c d d, d' d es es, es' es
+		f( d) h( g) es'-! c( h c) g c es, g
+		c, es' es es es( d) d( c) c( b) a( g) %40
+		fis a' a a a( fis) fis( es) es( c) c( a)
+		d-! d( b' d,) c-! c( a' c,) b-! b( g' b,)
+		b4\trill a r
+		d16( e32 fis g a b c) d16 d, d d d' d, c' d,
+		b'4 g,, r %45
+		a'16( b32 c d e f g) a16( f) c'-! c-! c( a) f( es)
+		d4 b, r
+		f''16( d) d( f) f( b) b( d) d-! f,( es d)
+		es( c) c( es) es( a) a( c) c-! es,( d c)
+		d( b) b( d) d( f) f( b) b( d) d( b) %50
+		b( f) f( d) es-! es( c' es,) d-! d( b' d,)
+		d4\trill c r
+		f16\ff f, f' f f f f f f f f f
+		g g, g' g g g g g g g g g
+		a a, a' a a a a a a a a a %55
+		b b, b' b b b b b b b b b
+		c( a) a( c) c( es,) es( d) d-! b'( a b)
+		c,-! g'( f es) d f b d, c8 a'
+		b,16 b d b f b d, f b,4
+		f''8\pE r d r b r %60
+		g r r4 r
+		es'8 r c r a r
+		f r r4 r
+		d'8 r b r g r
+		es r r4 r %65
+		c'8 r a r f r
+		d r b'4. c16( a)
+		b8 c16( d) es4. d16( c)
+		b8 r r4 r
+		r4 d16-!\f b( a b) c-! a( g f) %70
+		es'-! c( b c) d-! b( a b) d( b) f'( d)
+		b'( d,) d( b') \slurDashed b( c,) c( b') \slurSolid f,8 a'
+		b,4 r r\fermata \bar "||" %73 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

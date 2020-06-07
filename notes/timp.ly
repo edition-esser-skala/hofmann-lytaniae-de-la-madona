@@ -76,3 +76,48 @@ VasTimpani = {
 		c4 r r\fermata \bar "||" %78 finis
 	}
 }
+
+ReginaTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoRegina
+		c2\fE c4
+		c r r
+		r r g
+		c c r
+		R2.*9 %13
+		g2\fE g4
+		g r g %15
+		c r r
+		g g r
+		R2.*9 %26
+		g4\fE g g
+		g r r
+		R2.*2 %30
+		g4 c r
+		c4. c8 c c
+		g4. g8 g g
+		c4 r c
+		g g r %35
+		R2.*10 %45
+		g4\fE r g
+		c c r
+		c r c8 c
+		g4 r g
+		c4. c8 c4 %50
+		r r c
+		g g r
+		g2 r4
+		g2 r4
+		g g g %55
+		c4. c8 c4
+		g2 c4
+		r g g
+		c r r
+		R2.*10 %69
+		r4 c\fE g %70
+		g c r
+		c g g
+		c r r\fermata \bar "||" %73 finis
+	}
+}

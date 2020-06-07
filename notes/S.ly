@@ -304,6 +304,146 @@ SalusSopranoLyrics = \lyricmode {
 	no -- bis. %33 finis
 }
 
+ReginaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 3/4 \autoBeamOff \tempoRegina
+		\mvTr b'2.\fE^\tutti
+		b2 b4
+		c2 a4
+		b b \mvTr f'~\pE^\solo
+		f16[ es d es] d[ c b c] b[ a g a] %5
+		g4 es'2~
+		es16[ d c d] c[ b a b] a[ g f g]
+		f4 d'2~
+		d16[ c b c] b[ a g a] g[ f e f]
+		e4~ e16[ g f e] f[ a g f] %10
+		g4~ g16[ b a g] a8[ f']
+		e16[( d)] c([ b)] a4( g)\trill
+		f r r
+		\mvTr f'2.\fE^\tutti
+		f2 f4 %15
+		f4. f8 e4
+		f c r
+		R2.*9 %26
+		\mvTr f4\fE^\tuttiE f f
+		f2 f4
+		f es r
+		es es es %30
+		es d r
+		d2.
+		es2 es4
+		d es d
+		d c r %35
+		c c c
+		h4. h8 h4
+		c d es
+		f es r
+		es2. %40
+		es2 es4
+		d( c) b
+		b a r
+		a a a
+		b b r %45
+		c c c
+		d d r
+		f2.
+		es2 es4
+		d4. d8 d4 %50
+		d c b
+		b a r
+		f2.
+		g2 g4
+		a a a %55
+		b4. b8 b4
+		es2 d4
+		c d( c)
+		b r \mvTr f'~\pE^\solo
+		f16[ es d es] d[ c b c] b[ a g a] %60
+		g4 r \once \tieDashed es'~
+		es16[ d c d] c[ b a b] a[ g f g]
+		f4 r d'~
+		d16[ c b c] b[ a g a] g[ f es f]
+		es4 r c'~ %65
+		c16[ b a b] a[ g f g] f[ es d es]
+		d8 f b4. c16[ a]
+		b8[ c16 d] es4. d16[ c]
+		b8. c16 b4( a)\trill
+		b \mvTr d\fE^\tutti c %70
+		es d r
+		d c2
+		b4 r r\fermata \bar "||" %73 finis
+	}
+}
+
+ReginaSopranoLyrics = \lyricmode {
+	Re --
+	gi -- na
+	An -- ge --
+	lo -- rum, o --
+	_ _ %5
+	ra, o --
+	_ _
+	ra, o --
+	_ _
+	_ _ %10
+	_ _
+	ra pro no --
+	bis.
+	Re --
+	gi -- na %15
+	Pa -- tri -- ar --
+	cha -- rum.
+
+	Re -- gi -- na %27
+	Pro -- phe --
+	ta -- rum,
+	o -- ra pro %30
+	no -- bis,
+	re --
+	gi -- na
+	A -- po -- sto --
+	lo -- rum, %35
+	re -- gi -- na
+	Mar -- ty -- rum,
+	o -- ra pro
+	no -- bis,
+	re -- %40
+	gi -- na
+	Con -- fes --
+	so -- rum,
+	o -- ra pro
+	no -- bis, %45
+	o -- ra pro
+	no -- bis,
+	re --
+	gi -- na
+	Vir -- gi -- num, %50
+	o -- ra pro
+	no -- bis,
+	re --
+	gi -- na
+	San -- cto -- rum %55
+	o -- mni -- um,
+	o -- ra
+	pro no --
+	bis, o --
+	_ _ %60
+	ra, o --
+	_ _
+	ra, o --
+	_ _
+	ra, o -- %65
+	_ _
+	ra, o -- _ _
+	_ _ _
+	ra pro no --
+	bis, o -- ra, %70
+	o -- ra
+	pro no --
+	bis. %73 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

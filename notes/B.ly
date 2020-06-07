@@ -271,6 +271,112 @@ VasBassoLyrics = \lyricmode {
 	bis. %78 finis
 }
 
+ReginaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 3/4 \autoBeamOff \tempoRegina
+		\mvTr b'2(\fE^\tuttiE a4)
+		g2 d4
+		es2 f4
+		b, b r
+		R2.*9 %13
+		\mvTr f'2(\fE^\tuttiE e4)
+		d2 a4 %15
+		b4. b8 c4
+		f f r
+		R2.*9 %26
+		\mvTr f4\fE^\tuttiE f f
+		d2 d4
+		h c r
+		c c c %30
+		a b r
+		b2.
+		a2 a4
+		b es e
+		f f, r %35
+		f' f f
+		f4. f8 f4
+		es d c
+		h c r
+		c2. %40
+		c2 c4
+		b( c) cis
+		d d r
+		d d d
+		g g, r %45
+		f'! f f
+		b b, r
+		b'2.
+		c4( a) f
+		b4. b,8 b4 %50
+		b es e
+		f f, r
+		f'2.
+		f2 f4
+		f f f %55
+		b,4. b8 b4
+		a2 b4
+		es f2
+		b,4 r r
+		R2.*10 %69
+		r4 \mvTr b'\fE^\tuttiE a %70
+		c b r
+		b f2
+		b,4 r r\fermata \bar "||" %73 finis
+	}
+}
+
+ReginaBassoLyrics = \lyricmode {
+	Re --
+	gi -- na
+	An -- ge --
+	lo -- rum.
+
+	Re --
+	gi -- na %15
+	Pa -- tri -- ar --
+	cha -- rum.
+
+	Re -- gi -- na %27
+	Pro -- phe --
+	ta -- rum,
+	o -- ra pro %30
+	no -- bis,
+	re --
+	gi -- na
+	A -- po -- sto --
+	lo -- rum, %35
+	re -- gi -- na
+	Mar -- ty -- rum,
+	o -- ra pro
+	no -- bis,
+	re -- %40
+	gi -- na
+	Con -- fes --
+	so -- rum,
+	o -- ra pro
+	no -- bis, %45
+	o -- ra pro
+	no -- bis,
+	re --
+	gi -- na
+	Vir -- gi -- num, %50
+	o -- ra pro
+	no -- bis,
+	re --
+	gi -- na
+	San -- cto -- rum %55
+	o -- mni -- um,
+	o -- ra
+	pro no --
+	bis,
+
+	o -- ra, %70
+	o -- ra
+	pro no --
+	bis. %73 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

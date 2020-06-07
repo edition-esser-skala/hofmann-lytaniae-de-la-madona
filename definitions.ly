@@ -593,6 +593,7 @@ tempoKyrie = \tempoMarkup "Allegro"
 tempoSanctaMaria = \tempoMarkup "Andante"
 tempoVas = \tempoMarkup "Andantino"
 tempoSalus = \tempoMarkup "Largo"
+tempoRegina = \tempoMarkup "Allegro"
 
 
 
