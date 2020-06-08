@@ -493,13 +493,62 @@ AgnusDeiSopranoLyrics = \lyricmode {
 	bis. %39 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+SubTuumSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoSubTuum
+		\partial 8 \mvTr f8\fE^\tutti b4 d8 f d8. c16 b8 d
+		d8. c16 c4 b4. b8
+		b a g8. g16 f4 f'8 f
+		f es16([ d)] c8 h c g es' d
+		d8. c16 c4 b4.\p b8 %5
+		b4. b8 h4 h8 h
+		c4 g r8 es'\f es es
+		es4 es8 es es4 d
+		g8. es16 c8 b b a r4
+		b2 c %10
+		d8 f \appoggiatura f es4 d r8 d
+		\appoggiatura d16 c8 b16([ a)] \appoggiatura c8 b4^\critnote a r
+		es'! es8 es es([ d)] d4
+		c8. c16 c8 c c([ b)] b4
+		as4. as8 g[( es'16 d] c8) b %15
+		b4 a b c
+		d8. es16 f4 r8 es es d
+		d8. c16 c4 f c
+		a8. b16 c4 r8 es4 es,8
+		es4 d b' c %20
+		d8. es16 f4 r8 as, as as
+		g4. a16[ b] c4 b~
+		b a b r
+		as r g as
+		g2 f\fermata \bar "|." %25 FINIS
+	}
+}
+
+SubTuumSopranoLyrics = \lyricmode {
+	Sub tu -- um prae -- si -- di -- um con --
+	fu -- gi -- mus, San -- cta
+	De -- i Ge -- ni -- trix. No -- stras
+	de -- pre -- ca -- ti -- o -- nes ne de --
+	spi -- ci -- as in ne -- %5
+	ces -- si -- ta -- ti -- bus
+	no -- stris, sed a per --
+	i -- cu -- lis cun -- ctis
+	li -- be -- ra nos sem -- per,
+	Vir -- go %10
+	glo -- ri -- o -- sa et
+	be -- ne -- di -- cta.
+	Do -- mi -- na no -- stra,
+	Me -- di -- a -- trix no -- stra,
+	Ad -- vo -- ca -- ta %15
+	no -- stra, tu -- o
+	Fi -- li -- o nos re -- con --
+	ci -- li -- a, tu -- o
+	Fi -- li -- o nos com --
+	men -- da, tu -- o %20
+	Fi -- li -- o  nos re -- pre --
+	sen -- _ _ _
+	_ ta,
+	nos re -- pre --
+	sen -- ta. %25 FINIS
+}

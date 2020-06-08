@@ -442,9 +442,34 @@ AgnusDeiViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+SubTuumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoSubTuum
+		\partial 8 f8\fE b4 d8 f d8. c16 b8 b'16( d,)
+		d8.(\trill c32 d) c4 b~ b16 c32( d e f g a)
+		b16. b,32 a16. f'32 g,8 e' f,4 f'8 f
+		f es16 d c8 h c g es' d
+		d8.(\trill c32 d) c4 r16 b-!\p d-! f-! b-! b,-! b'8-! %5
+		r16 g, b es g g, g'8 r16 h, d f as h, as'8
+		r16 c, es g c c, c'8 r8 es, es es
+		es8.(\trill d32 es) c'8 es, es8.(\trill d32 es) d4
+		g8. es16 c8 b b\trill a r4
+		b \tuplet 6/4 4 { b,16-\parenthesize-! b'( c d c b) } c4  \tuplet 6/4 4 { f,16-! c'( d es d c) } %10
+		d16. f32 b16. d32 \appoggiatura f,8 es4\trillE d4 r8 d
+		\appoggiatura d16 c8 b16 a \appoggiatura c8 b4 a r
+		es'!8.( a32 b) c16. a32 c16. es,32 es8.(\trill d32 es) d4
+		c8.( fis32 g) a16. fis32 a16. c,32 c8.(\trill b32 c) b4
+		as16( b32 c d es f g) as16. f32 d16. as32 g8 g'16( f) es8 d %15
+		d8.(\trill c32 d) c4 <b d,> <c f,>
+		d8. es16 f8 d'16( b) \tuplet 3/2 8 { a b c } es,4 d8
+		d8.(\trill c32 d) c4 f c
+		a8. b16 c8 a32( b c d) es16( c) c( a) c( a) a( es)
+		es8.(\trill d32 es) d4 <d b'> <f c'> %20
+		d'8. es16 f8 d32( es f g) as16( f) f( d) f( d) d( as)
+		g g'8 g g g16 f f8 f b d,16
+		c16. b'32 b16. b32 f,8 a' b,16( b') b( f) f( d) d( b)
+		as( as') as( f) f( d) d( as) g( es) b( g) as'( f) d( b)
+		g'2 f\fermata \bar "|." %25 FINIS
+	}
+}

@@ -443,3 +443,35 @@ AgnusDeiViolinoII = {
 		d1\fermata \bar "||" %39 finis
 	}
 }
+
+SubTuumViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoSubTuum
+		\partial 8 f8\fE b4 d8 f d8. c16 b8 d16( b)
+		b8.(\trillE a32 b) a4 g~ g16 a32( b c d e f)
+		g16. b,32 a16. f'32 g,8 e' f,4 a8 a
+		as8 g16 f es8 d es4 c'8 b
+		b8.(\trill a32 b) a4 r r16 f'-!\p d-! b-! %5
+		g' g, g'8 r16 b g es d d, d'8 r16 f d h
+		c c, c'8 r16 c, es g c c, c'8\fE c c
+		c8.(\trill b32 c) es8 c c8.(\trill b32 c) b4
+		g'8. es16 c8 b b\trill a r4
+		b \tuplet 6/4 4 { b,16-\parenthesize-! b'( c d c b) } c4 \tuplet 6/4 4 { f,16-! c'( d es d c) } %10
+		d16. f32 b16. d32 \appoggiatura f,8 es4\trill d r8 d
+		\appoggiatura d16 c8 b16 a \appoggiatura c8 b4 a r
+		c8.( c32 d) es16. c32 es16. c32 c8.(\trill b32 c) b4
+		a8.( a32 b) c16. a32 c16. a32 a8.(\trill g32 a) g4
+		f!16( g32 as b c d es) f16. d32 as16. f32 es8 es'16( d) c8 b %15
+		b8.(\trill a32 b) a4 <b d,> <c f,>
+		d8. es16 f8 d'16( b) \tuplet 3/2 8 { a16 b c } c,4 b8
+		b8.(\trill a32 b) a4 f' c
+		a8. b16 c8 a32( b c d) es16( c) c( a) c( a) a( es)
+		es8.(\trill d32 es) d4 <d b'> <f c'> %20
+		d'8. es16 f8 d32( es f g) as16( f) f( d) f( d) d( as)
+		g es'8 es es es16~ es es8 es16 d d8 d16
+		c16. b'32 b16. b32 f,8 a' b,16( b') b( f) f( d) d( b)
+		as( as') as( f) f( d) d( as) g( es) b( g) as'( f) d( b)
+		g'2 f\fermata \bar "|." %25 FINIS
+	}
+}

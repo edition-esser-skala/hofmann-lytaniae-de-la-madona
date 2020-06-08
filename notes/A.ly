@@ -539,13 +539,62 @@ AgnusDeiAltoLyrics = \lyricmode {
 	bis. %39 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+SubTuumAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoSubTuum
+		\partial 8 r8 r2 r4 r8 \mvTr f\fE^\tutti
+		f8. f16 f4 r g8 g
+		g f f e f4 a8 a
+		as g16([ f)] es8 d es es f f
+		f8. f16 f4 f4.\p f8 %5
+		g4. g8 as4 as8 as
+		g4 g r8 g\f g g
+		f4 f8 f f4 f
+		g8. g16 g8 g f f r4
+		f2 f %10
+		f8 b g([ f)] f4 r8 f
+		f f f([ e)] f4 r
+		f f8 f f4 f
+		a8. a16 a8 a a([ g)] g4
+		f!4. f8 es[( g16 f] es8) d %15
+		d4 c f f
+		f8. f16 f4 r8 f f f
+		f8. f16 f4 a g
+		f8. g16 a4 r8 c4 c,8
+		c4 b f' f %20
+		f8. f16 f4 r8 f f f
+		\once \tieDashed es2~ es4 d
+		c2 d4 r
+		f r es f
+		es2 d\fermata \bar "|." %25 FINIS
+	}
+}
+
+SubTuumAltoLyrics = \lyricmode {
+	Con --
+	fu -- gi -- mus, San -- cta
+	De -- i Ge -- ni -- trix. No -- stras
+	de -- pre -- ca -- ti -- o -- nes ne de --
+	spi -- ci -- as in ne -- %5
+	ces -- si -- ta -- ti -- bus
+	no -- stris, sed a per --
+	i -- cu -- lis cun -- ctis
+	li -- be -- ra nos sem -- per,
+	Vir -- go %10
+	glo -- ri -- o -- sa et
+	be -- ne -- di -- cta.
+	Do -- mi -- na no -- stra,
+	Me -- di -- a -- trix no -- stra,
+	Ad -- vo -- ca -- ta %15
+	no -- stra, tu -- o
+	Fi -- li -- o nos re -- con --
+	ci -- li -- a, tu -- o
+	Fi -- li -- o nos com --
+	men -- da, tu -- o %20
+	Fi -- li -- o  nos re -- pre --
+	sen -- _
+	_ ta,
+	nos re -- pre --
+	sen -- ta. %25 FINIS
+}

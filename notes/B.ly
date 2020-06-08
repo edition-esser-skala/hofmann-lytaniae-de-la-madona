@@ -420,13 +420,62 @@ AgnusDeiBassoLyrics = \lyricmode {
 	bis. %39 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }
+SubTuumBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoSubTuum
+		\partial 8 r8 r2 r4 r8 \mvTr b\fE^\tutti
+		f'8. f,16 f4 r g'8 g
+		e f c8. c16 f4 f8 es
+		d d g8. f16 es([ d)] c8 a! b
+		f'8. f,16 f4 d'4.\p d8 %5
+		es4. es8 f4 f8 f
+		es4 es r8 c\f c c
+		a4 a8 a b4 b
+		es8. es16 es8 e f f r4
+		b,2 f' %10
+		b8 b, c([ f)] b,4 r8 b'
+		a f g([ c,)] f4 r
+		a a8 a b4 b
+		fis8. fis16 fis8 fis g4 g
+		d4. d8 es4. e8 %15
+		f4 f b f
+		d8. c16 b4 r8 a a b
+		f'8. f,16 f4 f' e
+		f8. f16 f4 r8 a,4 a8
+		b4 b b' f %20
+		d8. c16 b4 r8 d d d
+		es[ d c b] a4 b
+		f'2 b,4 r
+		d r es d
+		es2 b\fermata \bar "|." %25 FINIS
+	}
+}
+
+SubTuumBassoLyrics = \lyricmode {
+	Con --
+	fu -- gi -- mus, San -- cta
+	De -- i Ge -- ni -- trix. No -- stras
+	de -- pre -- ca -- ti -- o -- nes ne de --
+	spi -- ci -- as in ne -- %5
+	ces -- si -- ta -- ti -- bus
+	no -- stris, sed a per --
+	i -- cu -- lis cun -- ctis
+	li -- be -- ra nos sem -- per,
+	Vir -- go %10
+	glo -- ri -- o -- sa et
+	be -- ne -- di -- cta.
+	Do -- mi -- na no -- stra,
+	Me -- di -- a -- trix no -- stra,
+	Ad -- vo -- ca -- ta %15
+	no -- stra, tu -- o
+	Fi -- li -- o nos re -- con --
+	ci -- li -- a, tu -- o
+	Fi -- li -- o nos com --
+	men -- da, tu -- o %20
+	Fi -- li -- o  nos re -- pre --
+	sen -- _ _
+	_ ta,
+	nos re -- pre --
+	sen -- ta. %25 FINIS
+}

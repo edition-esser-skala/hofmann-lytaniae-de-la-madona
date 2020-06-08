@@ -880,13 +880,62 @@ AgnusDeiBassFigures = \figuremode {
 	r1 %39 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+SubTuumOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoSubTuum
+		\partial 8 r8 r2 r4 r8 \mvTr b\fE-\tutti
+		f'8. f,16 f4 r g'8 g
+		e f c c f, f' f es
+		d d g8. f16 es d c8 a! b
+		f'8. f,16 f4 \mvTr d'8\p-\senzaOrg d d d %5
+		es es es es f f f f
+		es es es es r16 \mvTr c\fE-\colOrg-\tutti es g c c, c'8
+		r16 a, c f a a, a'8 r16 b, d f b b, b'8
+		es,8. es16 es8 e f f, f'16. es32 d16. c32
+		b8 b d b f' f a f %10
+		b b, c f b,16. d32 f16. b32 b,8 b'
+		a f g c, f, f'16. e32 f16. f,32 f'16. g32
+		a8 a a a b b b b
+		fis fis fis fis g g g g
+		d d d d es4. e8 %15
+		f f, f'16. es32 d16. c32 b4 f'
+		d8. c16 b4 r8 a a b
+		f' f, f'16. c32 a16. c32 f8 a e c
+		f4 f, r8 a a a
+		b b'16. a32 b16. f32 d16. f32 b4 f %20
+		d8. c16 b4 r8 d d d
+		es d c b a f b b'
+		f f f, f b4 r
+		d r es d
+		es2 b\fermata \bar "|." %25 FINIS
+	}
+}
+
+SubTuumBassFigures = \figuremode {
+	r8 r1
+	<6 4>4 <5 3>2.
+	<6 5>4 <4>8 <_!> r4. <\t>8
+	<5->4 <6 4>8 <[5] _!> \bo <[6 \l]>4 \bc <[6 5]>
+	<6 4>4 <5 3>2. %5
+	r1
+	r
+	r16 <[6] 5>4.. r16 \bo <[9 4]> <\t \t>8 \bc <[8 3]>4
+	r <6>8 <5> <4> <3>4.
+	r4 <[6]> <4> <[6]> %10
+	r4 \bo <[7 4]>8 \bc <[7 \l]> r2
+	<[6]>4 <7 [4]>8 <7!> r2
+	<5->2 <9 4>4 <8 3>
+	<5 3>2 <9 4>4 <8 3>
+	<5->2 \bo <[5]>4 \bc <[6]>8 <7 5> %15
+	<6 4>4 <[5] 3>2.
+	<[6]>2 r8 <[6 5]>4.
+	<6 4>4 <5 3> r <[6]>8 <[_!]>
+	r2 r8 <5->4.
+	<9 4>4 <8 3>2. %20
+	<[6]>2 r8 <5->4.
+	r4 \bo <[5 3]>8 <\t \t> \bc <[6 5]>2
+	<4>4 <3>2.
+	<5->2. q4
+	r1 %25 FINIS
+}

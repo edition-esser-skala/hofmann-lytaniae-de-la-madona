@@ -428,13 +428,62 @@ AgnusDeiTenoreLyrics = \lyricmode {
 	bis. %39 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+SubTuumTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoSubTuum
+		\partial 8 r8 r2 r4 r8^\critnote \mvTr b\fE^\tutti
+		b8. a16 a4 r d8 d
+		c c c8. c16 c4 c8 c
+		d d g,8. g16 g8 g c b
+		b8. a16 a4 b4.\p b8 %5
+		b4. es8 d4 d8 d
+		c4 c r8 c\f c c
+		c4 c8 c c4 b
+		b8. b16 c8 c c c r4
+		r b2 a4 %10
+		b8 d \appoggiatura d c4 b r8 b
+		c f d([ c)] c4 r
+		c c8 c c([ b)] b4
+		a8. d16 d8 d d4 d
+		b4. b8 b4 g %15
+		f f d' a
+		b8. c16 d4 r8 c c b
+		b8. a16 a4 c c
+		c8. c16 c4 r8 f,4 f8
+		f4 f d' a %20
+		b8. c16 d4 r8 b b b
+		b4 c f,2~
+		f f4 r
+		b r b b
+		b2 b\fermata \bar "|." %25 FINIS
+	}
+}
+
+SubTuumTenoreLyrics = \lyricmode {
+	Con --
+	fu -- gi -- mus, San -- cta
+	De -- i Ge -- ni -- trix. No -- stras
+	de -- pre -- ca -- ti -- o -- nes ne de --
+	spi -- ci -- as in ne -- %5
+	ces -- si -- ta -- ti -- bus
+	no -- stris, sed a per --
+	i -- cu -- lis cun -- ctis
+	li -- be -- ra nos sem -- per,
+	Vir -- go %10
+	glo -- ri -- o -- sa et
+	be -- ne -- di -- cta.
+	Do -- mi -- na no -- stra,
+	Me -- di -- a -- trix no -- stra,
+	Ad -- vo -- ca -- ta %15
+	no -- stra, tu -- o
+	Fi -- li -- o nos re -- con --
+	ci -- li -- a, tu -- o
+	Fi -- li -- o nos com --
+	men -- da, tu -- o %20
+	Fi -- li -- o  nos re -- pre --
+	sen -- _ _
+	ta,
+	nos re -- pre --
+	sen -- ta. %25 FINIS
+}
