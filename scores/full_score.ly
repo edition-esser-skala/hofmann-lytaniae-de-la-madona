@@ -98,7 +98,7 @@
 			number = "2"
 			title = "S A N C T A   M A R I A"
 		}
-		% \tocSection "2" "Sancta Maria"
+		\tocSection "2" "Sancta Maria"
 		\score {
 			<<
 				\new StaffGroup <<
