@@ -444,6 +444,55 @@ ReginaSopranoLyrics = \lyricmode {
 	bis. %73 finis
 }
 
+AgnusDeiSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		R1*8 %8
+		r2 \mvTr b'4.\pE^\solo c16([ b)]
+		b([ as)] as4 as8 as g r es' %10
+		es16([ d)] d c c([ b)] b([ as)] \appoggiatura as g8 f r4
+		\mvTr f4.\p^\tutti f8 f4 f
+		es4. es8 es4 es
+		es( d8) d c4 r
+		R1*8 %22
+		\mvTr es2\p^\tutti e4 e8 e
+		e4 f8 f f4( e8) e
+		f4 r r2 %25
+		R1*6 %31
+		\key b \major \mvTr c'4.\fE^\tuttiE c8 h4 h
+		b4. b8 b([ a)] a4
+		f'4. f8 e4 e
+		es4. es8 es([ d)] d4 %35
+		b4. b8 b4 b
+		b( a) b as8. as16
+		g4 as \appoggiatura as4 g2^\critnote
+		f1\fermata \bar "||" %39 finis
+	}
+}
+
+AgnusDeiSopranoLyrics = \lyricmode {
+	A -- gnus %9
+	De -- i, qui tol -- lis, qui %10
+	tol -- lis pec -- ca -- ta mun -- di:
+	Par -- ce no -- bis,
+	par -- ce no -- bis,
+	Do -- mi -- ne.
+
+	Ex -- au -- di, ex -- %23
+	au -- di nos, Do -- mi --
+	ne. %25
+
+	Mi -- se -- re -- re, %32
+	mi -- se -- re -- re,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re, %35
+	mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re no --
+	bis. %39 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

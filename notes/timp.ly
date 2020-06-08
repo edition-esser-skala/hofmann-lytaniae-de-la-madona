@@ -121,3 +121,17 @@ ReginaTimpani = {
 		c r r\fermata \bar "||" %73 finis
 	}
 }
+
+AgnusDeiTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoAgnusDei
+		R1*33 %33
+		g4.\f g8 g2
+		g4. g8 c4 c %35
+		c c8 c16 c c4 c8 c16 c
+		g8 g16 g g8 g c4 c8 c16 c
+		c4 c8 c16 c c2:32
+		c1\fermata \bar "||" %39 finis
+	}
+}

@@ -371,6 +371,63 @@ ReginaTenoreLyrics = \lyricmode {
 	bis. %73 finis
 }
 
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		R1*11 %11
+		\mvTr b4.\p^\tutti b8 as!4 as
+		g4. g8 a4 a
+		g4. g8 g4 r
+		R1*5 %19
+		r2 \mvTr es'4.\pE^\solo f16([ es)] %20
+		es([ d)] d4 d8 d c r es
+		es16([ d)] h c d16.([ es64 f] es16) d c8 h r4
+		\mvTr g2\p^\tutti g4 g8 g
+		g4 as8 as as4( g8) g
+		f4 r r2 %25
+		R1*2
+		\mvTr c'4.\pE^\solo des16([ c)] c([ b)] b4 b8
+		b as r c des des16 c b([ as)] g([ as)]
+		as8 g r4 r2 %30
+		R1
+		\key b \major \mvTr c4.\f^\tutti c8 d4 d
+		e4. e8 c4 c
+		a4. a8 b4 b
+		c4. c8 c([ b)] b4 %35
+		b4. d8 c4 c
+		c2 b4 b8. b16
+		b4 b b2
+		b1\fermata \bar "||" %39 finis
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	Par -- ce no -- bis, %12
+	par -- ce no -- bis,
+	Do -- mi -- ne.
+
+	A -- gnus %20
+	De -- i, qui tol -- lis, qui
+	tol -- lis pec -- ca -- ta mun -- di:
+	Ex -- au -- di, ex --
+	au -- di nos, Do -- mi --
+	ne. %25
+
+	A -- gnus De -- i, qui %28
+	tol -- lis, qui tol -- lis pec -- ca -- ta
+	mun -- di: %30
+
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re, %35
+	mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re no --
+	bis. %39 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

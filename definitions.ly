@@ -594,6 +594,7 @@ tempoSanctaMaria = \tempoMarkup "Andante"
 tempoVas = \tempoMarkup "Andantino"
 tempoSalus = \tempoMarkup "Largo"
 tempoRegina = \tempoMarkup "Allegro"
+tempoAgnusDei = \tempoMarkup "Adagio"
 
 
 

@@ -400,6 +400,48 @@ ReginaViolinoI = {
 	}
 }
 
+AgnusDeiViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoAgnusDei
+		R1
+		\sbOn r4 \mvTr b32(\pE-\markup \remark "con sordini" es g es) d( es b des) des( c h c) es( c as' c,) c( b a? b) es( b g' b,)
+		b( as) as'( g) g( f) f( es) es( d) d( c) c( b) b( as) as8\trill g r4
+		R1
+		r2 r4 b32( a b c) d( b f' d) %5
+		es( b g b) es( b g' es) f( d b d) f( d as' f) as( g f es) es8 r4 \sbOff
+		R1
+		r2 r32 b(\f a b es b g' b,) b( as as' f es d f as,)
+		\sbOn g( b es des) h( c as' f) es16. f32 f8\trill es8-\critnote r r4
+		R1*2 %11
+		\sbOff b32(\p a b c d es f g) \sbOn f( d c b) b'( f es d) as'( g) g( f) f( es) es( d) \sbOff d'( c h as! g f es d)
+		es( c h c h c h c) es( g c es d c h c) c-! es,( d es c es d es) c'-! es( d c h c d c)
+		\sbOn g-! es( d es) es-! c( h c) g'-! d( c d) d-! h( a h) c4 r
+		R1 %15
+		r2 r4 g32( h a g) g'( d c h)
+		c( g as g) c( g es' c) d( g, as g) \once \slurDashed d'( g, f' d) f( es d c) c8 r4
+		R1
+		r2 \sbOff r32 g'(\f fis g c g es' g,) g( f es' d c h d f,)
+		\sbOn f( es d c) as'( f es d) c16. d32 d8\trill c8-\critnote r r4 %20
+		R1*2
+		\sbOff es32(\p b g b es g f g) es( b g b es g f g) e( b g b e g f g) e( b g b e g f g)
+		e( b g b e g f e) f( c as c f c as' f) \sbOn c'-! as( g as) as-! f( e f) c'-! g( f g) g-! e( d e)
+		f4 r r2 %25
+		R1
+		\sbOff r32 c(\f h c f c as' c,) c( h as' g f e g b,) \sbOn as( c f c) des( b b' g) f16. g32 g8\trill
+		f8-\critnote r r4 r2
+		R1*3 %31
+		\key b \major \sbOff \mvTr c16\f-\markup \remark "senza sordini" c'(-. c-. c-.) c32( d e f g e d c) h16 f'(-. f-. f-.) f32( e d c h d c h)
+		b16 g'(-. g-. g-.) g32( f e d c b a b) b[-! g( f g)] a-! f( e f) c'([ a f a]) c( a f' c)
+		a'16 f(-. f-. f-.) f32( g a b c a g f) e16 b'(-. b-. b-.) b32( a g f e g f e)
+		es16 c'(-. c-. c-.) c32( b a g f es d es) es-![ c( b c)] d-! b( a b) d,([ f b f]) d'( b f' d) %35
+		b'16 b,(-. b-. b-.) b32([ d c b)] f'( d c b) g'16 b,(-. b-. b-.) b b'(-. b-. b-.)
+		b32-! f( g f es d c b) f-\parenthesize-! es'( f es d c b a) b16 b,(-. b-. b-.) as'32( g f es d c b as')
+		g( as b c d es f g) as( g f es d c b as) \appoggiatura as4 g2
+		f1\fermata \bar "||" %39 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

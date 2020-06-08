@@ -122,3 +122,17 @@ ReginaClarinoI = {
 		c r r\fermata \bar "||" %73 finis
 	}
 }
+
+AgnusDeiClarinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoAgnusDei
+		R1*33 %33
+		g'4.\f g8 g2
+		d'4. f8 f4 e %35
+		c4. c8 c4 c
+		\pa g g \pd c c8 c
+		c4 c8 c16 c c2
+		c1\fermata \bar "||" %39 finis
+	}
+}

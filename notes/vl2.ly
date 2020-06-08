@@ -399,3 +399,47 @@ ReginaViolinoII = {
 		b,4 r r\fermata \bar "||" %73 finis
 	}
 }
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoAgnusDei
+		\sbOn \mvTr es8\pE-\markup \remark "con sordini" b32( c b as) g( b es f) g( es as g) g( f e f) c8 \sbOff c32( b d es f as g f)
+		\sbOn f( b, c d) es( d es f) g( es f es) d( es b des) des( c h c) es( c as' c,) c( b a b) es( b g' b,)
+		b( as) as'( g) g( f) f( es) es( d) d( c) c( b) b( as) g( b c d) es( f g f) es( b' as g) f( es f g)
+		g( es d es) f( e f g) as( c b as) g( f g as) as( f e f) g( f g as) b( as g f) es( des c des)
+		c( es d es) f( g as b) c( b) b( as) as( g f es) es16( f32 g) f( es d c) b( a b c) d( b f' d) %5
+		es( b g b) es( b g' es) f( d b d) f( d as' f) as( g f g) es( f g as) b( g fis) g des( c) c'( b)
+		\sbOff as( c, h c des c b as) \sbOn c-! c'( h c) b( f g as) \sbOff as( f g es d es b es) f( as e f es d c b)
+		as( g as b c d es f) es8 d\trill es32(\f b a b es b g' b,) b( as as' f es d f as,)
+		\sbOn g( b es des) h( c as' f) es8 d\trill es r r4
+		R1*2 %11
+		\sbOff b32(\p a b c d es f g) \sbOn f( d c b) b'( f es d) as'( g) g( f) f( es) es( d) \sbOff d'( c h as! g f es d)
+		es( c h c h c h c) es( g c es d c h c) c-! es,( d es c es d es) c'-! es( d c h c d c)
+		\sbOn g-! es( d es) es-! c( h c) g'-! d( c d) d-! h( a h) \sbOff c( g a h c d es d) \sbOn c( g' f es) d( c d es)
+		\sbOff es( c h c d cis d es) \sbOn f( as g f) es( d es f) \sbOff f( d cis d es d es f) g( f es d c b as g) %15
+		as( c h c d e f g) \sbOn as( g) g( f) f( es d c) \sbOff c16( d32 es d c h a) \sbOn g( h a g) g'( d c h)
+		c( g as g) c( g es' c) d( g, as g) \once \slurDashed d'( g, f' d) f( es d c) c( d es f) g( es d es) c( g c g')
+		\sbOff f( as g f es d c h) \sbOn as!( g g' f) es( d es f) f( d es c) h( c g c) d( f cis d) f( as g f)
+		es( g c h) c( f, es d) c8 h\trill \sbOff c32(\f g' fis g c g es' g,) g( f es' d c h d f,)
+		\sbOn f( es d c) as'( f es d) c8 h\trill c r r4 %20
+		R1*2
+		\sbOff es32(\p b g b es g f g) es( b g b es g f g) e( b g b e g f g) e( b g b e g f g)
+		e( b g b e g f e) f( c as c f c as' f) \sbOn c'-! as( g as) as-! f( e f) c'-! g( f g) g-! e( d e)
+		\sbOff f( c d e f g as b) \sbOn c( as g as) f( c f c') b( des c b) as( g f e) \sbOff des( c c' b as g as b) %25
+		\sbOn b( g as f) e( f c f) g( b fis g) b( des c b) as( c f e) f-! b,( as g) f8 e\trill
+		\sbOff f32(\f c h c f c as' c,) c( h as' g f e g b,) \sbOn as( c f c) des( b b' g) f8 e\trill
+		f8 r r4 r2
+		R1
+		r4 c32-! g'( fis g) des( c) b'( g) b( as g as) f( e f g) as( f e f) des( c f as) %30
+		\sbOff as( g b as g as b c) \sbOn des( c b as) g( as g f) f8 e r4
+		\key b \major \sbOff \mvTr c16\f-\markup \remark "senza sordini" c'(-. c-. c-.) c32( d e f g e d c) h16 f'(-. f-. f-.) f32( e d c h d c h)
+		b16 g'(-. g-. g-.) g32( f e d c b a b) b[-! g( f g)] a-! f( e f) c'([ a f a]) c( a f' c)
+		a'16 f(-. f-. f-.) f32( g a b c a g f) e16 b'(-. b-. b-.) b32( a g f e g f e)
+		es16 c'(-. c-. c-.) c32( b a g f es d es) es-![ c( b c)] d-! b( a b) d,([ f b f]) d'( b f' d) %35
+		b'16 b,(-. b-. b-.) b32([ d c b)] f'( d c b) g'16 b,(-. b-. b-.) b b'(-. b-. b-.)
+		b32-! f( g f es d c b) f-\parenthesize-! es'( f es d c b a) b16 b,(-. b-. b-.) as'32( g f es d c b f')
+		es( f g as b c d es) f( es d c b as g f) \appoggiatura f4 es2
+		d1\fermata \bar "||" %39 finis
+	}
+}

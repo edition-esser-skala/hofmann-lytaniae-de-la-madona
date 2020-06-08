@@ -476,6 +476,69 @@ ReginaAltoLyrics = \lyricmode {
 	bis. %73 finis
 }
 
+AgnusDeiAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \autoBeamOff \tempoAgnusDei
+		R1*8 %8
+		r2 \mvTr g'4.\pE^\solo as16([ g)]
+		g([ f)] f4 f8 f es r g %10
+		g16([ f)] f es es([ d)] d([ f)] \appoggiatura f es8 d r4
+		\mvTr d4.\p^\tutti d8 d4 d
+		c4. c8 c4 c
+		c( h8) h c4 r
+		R1*5 %19
+		r2 \mvTr g'4.\pE^\solo as16([ g)] %20
+		g([ f)] f4 f8 f es r g
+		g16([ f)] d es f16.([ g64 as] g16) f es8 d r4
+		\mvTr b!2\p^\tutti b4 b8 b
+		c4 c8 c c4. c8
+		c4 r r2 %25
+		R1*2
+		\mvTr as'4.\pE^\solo b16([ as)] as([ g)] g4 g8
+		g f r as b b16 as g([ f)] e([ f)]
+		f8 e r4 r2 %30
+		R1
+		\key b \major \mvTr e4.\f^\tutti e8 f4 f
+		g4. g8 g([ f)] f4
+		f4. f8 g4 g
+		a4. a8 f4 f %35
+		f4. f8 g4 g
+		f2 f4 f8. f16
+		es4 f \appoggiatura f4 es2^\critnote
+		d1\fermata \bar "||" %39 finis
+	}
+}
+
+AgnusDeiAltoLyrics = \lyricmode {
+	A -- gnus %9
+	De -- i, qui tol -- lis, qui %10
+	tol -- lis pec -- ca -- ta mun -- di:
+	Par -- ce no -- bis,
+	par -- ce no -- bis,
+	Do -- mi -- ne.
+
+	A -- gnus %20
+	De -- i, qui tol -- lis, qui
+	tol -- lis pec -- ca -- ta mun -- di:
+	Ex -- au -- di, ex --
+	au -- di nos, Do -- mi --
+	ne. %25
+
+	A -- gnus De -- i, qui %28
+	tol -- lis, qui tol -- lis pec -- ca -- ta
+	mun -- di: %30
+
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re, %35
+	mi -- se -- re -- re
+	no -- bis, mi -- se --
+	re -- re no --
+	bis. %39 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
