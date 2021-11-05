@@ -1,6 +1,10 @@
 # Changelog
 
-## 1.1.0 - 2021-11-04
+## 1.1.0 - 2021-11-05
+
+### Added
+
+- automatic engraving and release via GitHub Actions
 
 ### Changed
 
