@@ -1,17 +1,14 @@
 composer: Hofmann, Leopold
 title: Lytaniae de la Madona
-id: (A-Ed G 112)
 genre: litany
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (B), timp (B–F), 2 vl, 2 vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (\flat B), timp (\flat B–F), 2 vl, 2 vla, b, org
 sources:
-  1:
+  B1:
     siglum: A-Ed
     shelfmark: G 112
-    type: manuscript copy
-    date: unknown
     rism: 600038340
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/293.html
-github: hofmann-lytaniae-in-B
+    principal: true
 imslp: Litaniae_lauretanae_in_B-flat_(Hofmann,_Leopold)
-notes:
-
+parts:
+  ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F

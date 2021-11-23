@@ -1,14 +1,10 @@
 # Changelog
 
-## 1.1.0 - 2021-11-05
-
-### Added
-
-- automatic engraving and release via GitHub Actions
+## 2.0.0 - 2021-11-23
 
 ### Changed
 
-- adjust to editorial principles of Edition Esser-Skala
+- uses EES Tools and new editorial guidelines
 
 
 ## 1.0 - 2020-06-08
