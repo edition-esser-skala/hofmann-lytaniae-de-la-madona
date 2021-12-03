@@ -1,13 +1,17 @@
-composer: Hofmann, Leopold
-title: Lytaniae de la Madona
+composer:
+  last: Hofmann
+  first: Leopold
+title: Lytaniæ de la Madona
 genre: litany
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 clno (\flat B), timp (\flat B–F), 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: A-Ed
     shelfmark: G 112
     rism: 600038340
     url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/293.html
+    license: public domain
     principal: true
 imslp: Litaniae_lauretanae_in_B-flat_(Hofmann,_Leopold)
 parts:
